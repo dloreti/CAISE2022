@@ -1,0 +1,119 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.20 of 2017/10/04
+%
+\documentclass[runningheads]{llncs}
+%
+\usepackage{graphicx}
+\usepackage{amssymb,amsmath}
+\usepackage{todonotes}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{xspace}
+\usepackage{booktabs}
+\usepackage{siunitx}
+%\usepackage{pgfplots}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage{bold-extra}
+\usepackage{rotating}
+\usepackage{xcolor,colortbl}
+\usepackage{booktabs}
+\usepackage{newtxtext}
+
+
+
+\usepackage{longtable,tabulary}
+
+\newcommand\ele[1]{\texttt{#1}}
+\newcommand\rel[1]{\texttt{\textit{#1}}}
+\newcommand\gr[1]{\textsc{#1}}
+\newcommand\lb{\textsl{LB meta-model}\xspace}
+
+
+\newcommand\btext[1]{{\color{blue}{#1}}}
+
+
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+%
+% If you use the hyperref package, please uncomment the following line
+% to display URLs in blue roman font according to Springer's eBook style:
+% \renewcommand\UrlFont{\color{blue}\rmfamily}
+
+\begin{document}
+%
+%\title{A literature-based business process meta-model}
+\title{Shape Your Process: Discovering Business Processes from Positive and Negative Traces Taking into Account User Preferences}
+%\title{Digging into BPM meta-models: criticalities and ideas towards solutions}
+
+%
+%\titlerunning{Abbreviated paper title}
+% If the paper title is too long for the running head, you can set
+% an abbreviated paper title here
+%
+
+\author{Federico Chesani\inst{1}, Chiara Di Francescomarino\inst{2}, Chiara Ghidini\inst{2}, Giulia Grundler\inst{1}, Daniela Loreti\inst{1}, Fabrizio Maria Maggi\inst{3}, Paola Mello\inst{1}, Marco Montali\inst{3}, Sergio Tessaris\inst{3}}
+
+%\author{First Author\inst{1}\orcidID{0000-1111-2222-3333} \and
+%Second Author\inst{2,3}\orcidID{1111-2222-3333-4444} \and
+%Third Author\inst{3}\orcidID{2222--3333-4444-5555}}
+%
+\authorrunning{Chesani et al.}
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+\institute{DISI - University of Bologna, Italy \and
+Fondazione Bruno Kessler, Trento, Italy \and
+Free University of Bozen/Bolzano, Italy\\
+\email{federico.chesani@unibo.it}}
+%
+\maketitle              % typeset the header of the contribution
+%
+\begin{abstract}
+ADD ABSTRACT
+\keywords{Process mining \and process discovery \and declarative process models \and deviant traces.}
+\end{abstract}
+%
+%
+%
+
+\input{introduction}
+
+\input{example}
+
+\input{deviant}
+
+%\input{preferences}
+
+\input{tool}
+
+\input{evaluation}
+
+\input{relatedWork}
+
+\input{conclusions}
+
+% \input{metamodel}
+%
+% \input{discussion}
+%
+% \input{solutions}
+%
+% \input{related_works}
+%
+%
+% \input{conclusion}
+
+%
+% ---- Bibliography ----
+%
+% BibTeX users should specify bibliography style 'splncs04'.
+% References will then be sorted and formatted in the correct style.
+%
+ \bibliographystyle{splncs04}
+ \bibliography{deviant}
+%
+
+\end{document}

@@ -1,0 +1,32 @@
+%!TEX root = ./main.tex
+
+
+\section{Introduction}
+\label{sec:introduction}
+
+\btext{CHIARA G provaa fare un promo passo di intro assieme poi ai bolognesi}
+
+
+\emph{Process discovery} is one of the most investigated process mining techniques \cite{2012-Aalst}. It deals with the automatic learning of a process model from a given set of logged traces, each one representing the digital footprint of the execution of a case.
+
+If we focus on the way process discovery techniques see the model-extraction task, we can divide them into two broad categories \cite{2018-Ponce}). The first category is constituted by works that tackle the problem of process discovery with one-class supervised learning techniques (see, e.g., \cite{2004-Aalst,2003-Weijters,2007-Gunther,2010-Aalst}). These works are driven by the assumption that all available log traces are instances of the process to be discovered. The second category comprises works that intend model-extraction as a two-class supervised task (\cite{2006-Maruster,2009-Goedertier,2009-Chesani}), which is driven by the possibility of partitioning the log traces into two sets according to some business or domain-related criterion. Usually these sets are referred to as \emph{positive} and \emph{negative} examples \cite{2018-Ponce}, and the goal is to learn a model that characterises one set w.r.t. the other.
+
+Traditionally, the vast majority of works in the process discovery spectrum have followed the first approach. Nonetheless, few recent works \cite{DBLP:conf/bpm/SlaatsDB21,deviant-arxiv} have pointed out the importance of addressing this challenge as a two-class supervised task, driven by various motivations such as the actual existence of \emph{positive} and \emph{negative} examples in real use cases \cite{DBLP:conf/bpm/SlaatsDB21}; the need to balance \emph{accuracy} and \emph{recall} \cite{DBLP:conf/bpm/SlaatsDB21}; and the need to discover the process of a particular variant according to a domain-specific need (e.g., the process characterizing ``fast'' traces) against the one that characterizes other variants, thus using the concept of \emph{positive} and \emph{negative} as a way to distinguish between two classes of examples \cite{deviant-arxiv}.  
+
+A problem that remains unsolved in process discovery in general and, in process mining as a two-class supervised task in particular, is the need to select, among all possible discovered models, the ones that fit better the expectations of a user. This is true for the traditional discovery of procedural models in a one-class supervised learning fashion, think for instance to the need to    
+
+
+ 
+
+
+ e un po' la necessità di esprimere preferenze sulla base del dominio (i modelli che escono da un miner possono essere pochi ma troppo complessi, o tanti, c'è la necessità di selezionare solo alcuni, qui noi mostriamo un meccanismo di selezione con l'uso di due tipi di preferenze: preferenze sui template, e preferenze sulle attività). Da notare che la complessità spunta fuori sia facendo mining procedurale (un modello solo, ma spesso a spaghetti), che mining dichiarativo (troppi modelli, oppure un modello solo con troppi vincoli connessi tra loro, ridondanti etc... ma i modelli dichiarativi erano stati introdotti anche per aumentare la leggibilità di un modello, ma poi a posteriori vediamo che i modelli possono risultare parecchio complicati -> ecco che un meccanismo di "selezione", basato anche sulle aspettative dell'utente oltre che su un bel criterio di sussunzione, risolve il problema e apre nuovi orizzonti nella corsa alla conquista dello spazio).
+
+Sempre nella intro dovremmo citare che siamo partiti da un altro lavoro currently submitted e disponibile su arxiv, e che tale lavoro aveva sottolineato l'importanza di scegliere modelli tra di loro non sussunti, analogamente al lavoro dei danesi.
+
+In questo lavoro riprendiamo il lavoro e mostriamo come introdurre meccanismi di preferenza che consentano all'utente di aumentare il controllo nel processo di selezione, tenendo conto del:
+- meccanismo di sussunzione, a cui non rinunciamo, che è domain-independent
+- preferenze sui template: in parte domain dependent, nel senso che dipende molto dai gusti dell'utente
+- preferenze sulle attività che compaiono nei vincoli, che sono domain dependent
+-- combinazione dei due
+
+Ma i danesi non hanno alcun meccanismo di preferenza domain-aware? DA CONTROLLARE, Paola ricorda che guardino la cardinalità...
