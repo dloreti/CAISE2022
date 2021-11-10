@@ -203,6 +203,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
@@ -320,6 +322,7 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
 INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/t1xtt.tfm
 INPUT example.tex
 INPUT example.tex
 INPUT deviant.tex
