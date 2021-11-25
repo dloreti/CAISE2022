@@ -1031,7 +1031,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:46.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:47.000+01:00"></date>
@@ -5511,12 +5511,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:44.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:45.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:46.000+01:00"></date>
@@ -6599,12 +6599,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:44.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:45.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:46.000+01:00"></date>
@@ -6619,7 +6619,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:48.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
@@ -8370,12 +8370,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:46.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:47.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:48.000+01:00"></date>
@@ -8390,7 +8390,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -19207,7 +19207,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:46.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:47.000+01:00"></date>
@@ -22155,12 +22155,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:44.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:45.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:46.000+01:00"></date>
@@ -22175,7 +22175,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:48.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
@@ -23193,12 +23193,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:44.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:45.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:46.000+01:00"></date>
@@ -23213,7 +23213,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:48.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
@@ -25250,7 +25250,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -25265,7 +25265,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:54.000+01:00"></date>
@@ -25374,7 +25374,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -25389,7 +25389,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:54.000+01:00"></date>
@@ -25498,7 +25498,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -25513,7 +25513,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:54.000+01:00"></date>
@@ -25706,12 +25706,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -25721,7 +25721,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -25889,12 +25889,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -25904,7 +25904,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -25998,7 +25998,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -26013,7 +26013,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:54.000+01:00"></date>
@@ -26122,12 +26122,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -26137,7 +26137,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -26216,12 +26216,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -26231,7 +26231,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -26320,12 +26320,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -26335,7 +26335,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -26508,17 +26508,17 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -26528,7 +26528,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:54.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:55.000+01:00"></date>
@@ -26538,7 +26538,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:56.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
@@ -26662,12 +26662,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -26677,7 +26677,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -26766,12 +26766,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -26781,7 +26781,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -26865,7 +26865,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -26880,7 +26880,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:54.000+01:00"></date>
@@ -26989,7 +26989,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -27004,7 +27004,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:54.000+01:00"></date>
@@ -27286,12 +27286,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -27301,7 +27301,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -27380,12 +27380,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -27395,7 +27395,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -27474,12 +27474,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -27489,7 +27489,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -27568,12 +27568,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -27583,7 +27583,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -27706,12 +27706,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -27721,7 +27721,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -27775,12 +27775,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:44.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:45.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:46.000+01:00"></date>
@@ -27795,7 +27795,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:48.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
@@ -28008,12 +28008,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:47.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:48.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
@@ -28028,7 +28028,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
@@ -28147,7 +28147,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -28310,12 +28310,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:44.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:45.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:46.000+01:00"></date>
@@ -28330,7 +28330,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:48.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
@@ -28574,7 +28574,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -28678,17 +28678,17 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -28698,7 +28698,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:54.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:55.000+01:00"></date>
@@ -28708,7 +28708,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:56.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
@@ -28837,7 +28837,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -28941,7 +28941,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -29045,7 +29045,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -29149,7 +29149,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -29337,12 +29337,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -29352,7 +29352,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -29436,7 +29436,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -29540,7 +29540,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -29713,7 +29713,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -29817,7 +29817,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -29921,7 +29921,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -30025,7 +30025,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -30129,7 +30129,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -30203,12 +30203,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:44.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:45.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:46.000+01:00"></date>
@@ -30223,7 +30223,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:48.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
@@ -30362,12 +30362,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -30377,7 +30377,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -30456,12 +30456,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -30471,7 +30471,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -30550,12 +30550,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -30565,7 +30565,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -30649,12 +30649,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -30664,7 +30664,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -30743,12 +30743,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -30758,7 +30758,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -30842,7 +30842,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -31045,7 +31045,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -31144,12 +31144,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -31159,7 +31159,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -31238,12 +31238,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -31253,7 +31253,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -31332,12 +31332,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -31347,7 +31347,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -31520,7 +31520,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -31619,12 +31619,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -31634,7 +31634,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -31807,7 +31807,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -31995,12 +31995,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -32010,7 +32010,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -32094,7 +32094,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -32193,12 +32193,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -32208,7 +32208,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -32366,12 +32366,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -32381,7 +32381,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -32465,7 +32465,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -32569,7 +32569,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -32673,7 +32673,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -32777,7 +32777,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -32881,7 +32881,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -32985,7 +32985,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -33089,17 +33089,17 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -33109,7 +33109,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:54.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:55.000+01:00"></date>
@@ -33119,7 +33119,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:56.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
@@ -33243,12 +33243,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -33258,7 +33258,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -33342,7 +33342,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -33465,12 +33465,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -33480,7 +33480,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -33559,12 +33559,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -33574,7 +33574,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -33658,17 +33658,17 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -33678,7 +33678,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:54.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:55.000+01:00"></date>
@@ -33688,7 +33688,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:56.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
@@ -33812,12 +33812,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -33827,7 +33827,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -33906,12 +33906,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -33921,7 +33921,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -34000,12 +34000,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -34015,7 +34015,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -34094,12 +34094,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -34109,7 +34109,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -34371,7 +34371,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -34470,12 +34470,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -34485,7 +34485,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -34564,12 +34564,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -34579,7 +34579,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -34752,12 +34752,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -34767,7 +34767,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -34846,12 +34846,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -34861,7 +34861,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -34999,12 +34999,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -35014,7 +35014,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -35098,7 +35098,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -35286,12 +35286,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -35301,7 +35301,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -35474,7 +35474,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -35662,12 +35662,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -35677,7 +35677,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -35756,12 +35756,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -35771,7 +35771,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -35850,12 +35850,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -35865,7 +35865,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -35944,12 +35944,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -35959,7 +35959,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -36043,7 +36043,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -36142,12 +36142,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -36157,7 +36157,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -36236,12 +36236,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -36251,7 +36251,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -36424,7 +36424,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -36612,12 +36612,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -36627,7 +36627,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -36706,12 +36706,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -36721,7 +36721,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -36894,7 +36894,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -37082,12 +37082,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -37097,7 +37097,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -37176,12 +37176,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -37191,7 +37191,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -37270,12 +37270,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -37285,7 +37285,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -37364,12 +37364,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -37379,7 +37379,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -37458,12 +37458,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -37473,7 +37473,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -37552,12 +37552,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -37567,7 +37567,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -37651,7 +37651,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -37750,12 +37750,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -37765,7 +37765,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -37844,12 +37844,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -37859,7 +37859,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -37938,12 +37938,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -37953,7 +37953,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -38121,12 +38121,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -38136,7 +38136,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -38220,7 +38220,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -38324,7 +38324,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -38423,7 +38423,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
@@ -38611,7 +38611,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -38710,12 +38710,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -38725,7 +38725,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -38809,7 +38809,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -38908,12 +38908,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -38923,7 +38923,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -39091,12 +39091,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -39106,7 +39106,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -39185,12 +39185,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -39200,7 +39200,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -39284,7 +39284,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -39383,7 +39383,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
@@ -39482,12 +39482,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -39497,7 +39497,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -39670,7 +39670,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -39858,12 +39858,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -39873,7 +39873,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -39952,12 +39952,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -39967,7 +39967,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -40136,7 +40136,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:07.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:08.000+01:00"></date>
@@ -40309,7 +40309,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -40497,12 +40497,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -40512,7 +40512,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -40596,7 +40596,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -40695,12 +40695,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -40710,7 +40710,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -40883,7 +40883,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -40987,7 +40987,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -41086,12 +41086,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -41101,7 +41101,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -41244,12 +41244,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:44.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:45.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:46.000+01:00"></date>
@@ -41264,7 +41264,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:48.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
@@ -41383,17 +41383,17 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -41403,7 +41403,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:54.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:55.000+01:00"></date>
@@ -41413,7 +41413,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:56.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
@@ -41537,12 +41537,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -41552,7 +41552,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -41631,12 +41631,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -41646,7 +41646,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -41725,12 +41725,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -41740,7 +41740,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -41824,7 +41824,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -41928,7 +41928,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -42121,12 +42121,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -42136,7 +42136,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -42304,12 +42304,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -42319,7 +42319,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -42398,12 +42398,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -42413,7 +42413,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -42942,7 +42942,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -43046,7 +43046,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -43145,12 +43145,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -43160,7 +43160,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -43239,12 +43239,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -43254,7 +43254,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -43333,12 +43333,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -43348,7 +43348,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -43432,7 +43432,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -43531,12 +43531,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -43546,7 +43546,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -43625,12 +43625,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -43640,7 +43640,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -43808,12 +43808,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -43823,7 +43823,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -43907,7 +43907,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -44095,12 +44095,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -44110,7 +44110,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -44189,12 +44189,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -44204,7 +44204,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -44283,12 +44283,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -44298,7 +44298,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -44377,12 +44377,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -44392,7 +44392,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -44471,12 +44471,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -44486,7 +44486,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -44570,7 +44570,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -44758,12 +44758,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -44773,7 +44773,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -44852,12 +44852,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -44867,7 +44867,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -44951,7 +44951,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -45050,12 +45050,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -45065,7 +45065,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -45327,7 +45327,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -45426,12 +45426,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -45441,7 +45441,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -45520,12 +45520,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -45535,7 +45535,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -45719,12 +45719,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -45734,7 +45734,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -45818,7 +45818,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -45917,12 +45917,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -45932,7 +45932,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -46016,7 +46016,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -46120,7 +46120,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -46219,12 +46219,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -46234,7 +46234,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -46313,12 +46313,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -46328,7 +46328,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -46407,12 +46407,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -46422,7 +46422,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -46501,12 +46501,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -46516,7 +46516,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -46595,12 +46595,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -46610,7 +46610,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -46689,12 +46689,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -46704,7 +46704,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -46788,7 +46788,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -46887,12 +46887,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -46902,7 +46902,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -46981,12 +46981,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -46996,7 +46996,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -47075,12 +47075,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
@@ -47090,7 +47090,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:54.000+01:00"></date>
@@ -47169,12 +47169,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
@@ -47184,7 +47184,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:54.000+01:00"></date>
@@ -47258,12 +47258,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -47273,7 +47273,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -47357,7 +47357,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
@@ -47367,12 +47367,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:54.000+01:00"></date>
@@ -47392,7 +47392,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:58.000+01:00"></date>
@@ -47501,17 +47501,17 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
@@ -47521,7 +47521,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:54.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:55.000+01:00"></date>
@@ -47531,7 +47531,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:56.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
@@ -47655,17 +47655,17 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value=" Pre behandl ansogning"/>
+			<string key="concept:name" value="Pre behandl ansogning"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:54.000+01:00"></date>
@@ -47675,7 +47675,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:55.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Execute  Pre decision"/>
+			<string key="concept:name" value="Execute Pre decision"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:56.000+01:00"></date>
@@ -47685,7 +47685,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Set to  Pre approved"/>
+			<string key="concept:name" value="Set to Pre approved"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:58.000+01:00"></date>
