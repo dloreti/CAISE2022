@@ -2153,22 +2153,22 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:55:48.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Udfoer bortfald"/>
+			<string key="concept:name" value="Perform dropout"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:55:49.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Change Phase to Bortfaldet"/>
+			<string key="concept:name" value="Change Phase to Lapsed"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:55:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Udfoer bortfald"/>
+			<string key="concept:name" value="Perform dropout"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:55:51.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Change Phase to Bortfaldet"/>
+			<string key="concept:name" value="Change Phase to Lapsed"/>
 		</event>
 	</trace>
 	<trace>

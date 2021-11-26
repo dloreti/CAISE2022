@@ -1056,7 +1056,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
@@ -1185,7 +1185,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:58.000+01:00"></date>
@@ -1210,7 +1210,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:02.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:03.000+01:00"></date>
@@ -3695,7 +3695,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:58.000+01:00"></date>
@@ -3898,7 +3898,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:58.000+01:00"></date>
@@ -4309,7 +4309,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:58.000+01:00"></date>
@@ -4512,7 +4512,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:58.000+01:00"></date>
@@ -4829,7 +4829,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:58.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:59.000+01:00"></date>
@@ -6931,7 +6931,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:56.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
@@ -10241,7 +10241,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:59.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:00.000+01:00"></date>
@@ -10256,7 +10256,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:02.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 	</trace>
 	<trace>
@@ -10533,7 +10533,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:58.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:59.000+01:00"></date>
@@ -12680,7 +12680,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:58.000+01:00"></date>
@@ -15317,7 +15317,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:58.000+01:00"></date>
@@ -15327,7 +15327,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:59.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:00.000+01:00"></date>
@@ -15708,7 +15708,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:58.000+01:00"></date>
@@ -16010,7 +16010,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:54.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:55.000+01:00"></date>
@@ -16040,7 +16040,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:00.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:01.000+01:00"></date>
@@ -16822,7 +16822,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 	</trace>
 	<trace>
@@ -17391,7 +17391,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:58.000+01:00"></date>
@@ -17767,22 +17767,22 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Udfoer bortfald"/>
+			<string key="concept:name" value="Perform dropout"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:58.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Udfoer bortfald"/>
+			<string key="concept:name" value="Perform dropout"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:59.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Udfoer bortfald"/>
+			<string key="concept:name" value="Perform dropout"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:00.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Udfoer bortfald"/>
+			<string key="concept:name" value="Perform dropout"/>
 		</event>
 	</trace>
 	<trace>
@@ -18905,7 +18905,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:00.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:01.000+01:00"></date>
@@ -19277,7 +19277,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:00.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:01.000+01:00"></date>
@@ -20760,7 +20760,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:55.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Udfoer bortfald"/>
+			<string key="concept:name" value="Perform dropout"/>
 		</event>
 	</trace>
 	<trace>
@@ -20864,7 +20864,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:58.000+01:00"></date>
@@ -20983,7 +20983,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:57.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:58.000+01:00"></date>
@@ -21300,7 +21300,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:58.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:59.000+01:00"></date>
@@ -22200,7 +22200,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:54.000+01:00"></date>
@@ -27820,12 +27820,12 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:53.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:54.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:55.000+01:00"></date>
@@ -28360,7 +28360,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:54.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:55.000+01:00"></date>
@@ -28385,7 +28385,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:59.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:00.000+01:00"></date>
@@ -28415,7 +28415,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:05.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:06.000+01:00"></date>
@@ -28430,7 +28430,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:08.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:09.000+01:00"></date>
@@ -28445,7 +28445,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:11.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:12.000+01:00"></date>
@@ -28475,7 +28475,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:17.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:18.000+01:00"></date>
@@ -28500,7 +28500,7 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:22.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Godkend aendret kontonummer"/>
+			<string key="concept:name" value="Approve changed account number"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:52:23.000+01:00"></date>
@@ -32292,17 +32292,17 @@
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:50.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Udfoer bortfald"/>
+			<string key="concept:name" value="Perform dropout"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:51.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Change Phase to Bortfaldet"/>
+			<string key="concept:name" value="Change Phase to Lapsed"/>
 		</event>
 		<event>
 			<date key="time:timestamp" value="2021-11-17T17:51:52.000+01:00"></date>
 			<string key="lifecycle:transition" value="complete"/>
-			<string key="concept:name" value="Change Phase to Bortfaldet"/>
+			<string key="concept:name" value="Change Phase to Lapsed"/>
 		</event>
 	</trace>
 	<trace>
