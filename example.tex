@@ -1,6 +1,110 @@
 %!TEX root = ./main.tex
 
-\section{Motivating Example}
+\section{Motivating Examples\ldots\ or ``which type or preferences we would like to see''}
 \label{sec:example}
 
-\btext{Not sure we need a motivating example. Forse discutere le cose in intro basta.}
+%\btext{Not sure we need a motivating example. Forse discutere le cose in intro basta.}
+
+Users look for discovering models for a variety of reasons. A common one is linked to the need of having a description/explanation of the process. Other reasons might be, for example, the need for detecting process deviations or process drifts. Or, as in the case with \nd, users might be interested to understand, from a model viewpoint, what distinguishes one set of traces from another. Depending on the discovery technique, many alternative models might be available to describe the same process. The availability of many models might, in turn, hinder the usefulness of the discovery approach: the user will need a criterion for selecting few models among the many discovered.
+
+
+%Sometimes, the user might focus on a sub-part of the process, like in \cite{}\todofc{Stavo pensando a citare il hierarchical miner, mi pare si chiami così\ldots}. Other times, the user is interested to focus on certain specific activities, because of some domain-related aspects, or other needs
+
+Preferences over discovered models are then a way for supporting the user's needs: in particular, preferences over single activities, preferences over single model templates, and possibly combinations of both preference types might be of help to select those discovered models that better fit user's goals.
+
+
+
+\subsection{Preferences over the process activities}
+\label{subsec:prefOverActivities}
+
+A first type of preference among discovered models is strictly related to the application domain. We can reasonably imagine that, depending on the user's goals, models that focus more on certain activities might be preferable w.r.t. other models.
+
+\begin{example}
+Let us consider the quite common ``loan scenario'', where a bank receives a request for a loan, evaluates it, and provides an answer. Let us suppose that process instances have been classified into two sets, for example using some unexplainable machine learning method. The bank employee will look then for a model that helps her to understand differences between the two sets. Of course, the employee will not directly look into the logs, that for the easy of understanding we can suppose to be as follows:
+% Let us consider the following, fictitious example, where both the positive and the negative sets contain only one trace each:
+%
+\begin{align*}
+P & = \{\ (\mathsf{loanRequest}, \mathsf{requestEval}, \mathsf{notifyOutcome})\ \} \\
+N & = \{\ (\mathsf{requestEval}, \mathsf{loanRequest})\ \}
+\end{align*}
+%
+%The $P$ set reports only a trace, where the three activities of loan request, evaluation, and notification of the outcome are executed in order. The $N$ set also contains only a trace, where a request has been evaluated before the request was made 
+% The negative example reports a trace where only the evaluation of a request was performed, but no request for a loan was received, and no outcome was notified after.
+Alternative Declare models that might help to discriminate positive from negative examples might be\footnote{Other models exist, of course, but for the sake of clarity we mention only these models.}:
+%
+\begin{align*}
+\mathsf{M_1} & = \{ \mathsf{precedence(requestEval,loanRequest)}\} \\
+\mathsf{M_2} & = \{ \mathsf{response(requestEval, notifyOutcome)}\} \\
+\mathsf{M_3} & = \{ \mathsf{existence(notifyOutcome)}\}
+\end{align*}
+%
+Let us suppose that the user doing the discovery is employed in the marketing department, and thus she has in mind the bank slogan ``we always answer to our customers requests''. Surely, she would be more interested to models $\mathsf{M_2}$ and $\mathsf{M_3}$, that indeed show constraints dealing with the \textsf{notifyOutcome}.
+%
+%Model $\mathsf{M_1}$, on the other side, underlines a possible misbehavior in the logging system, where apparently two activities happened in a possibly wrong order. This model might be of interest of an employee working in the internal auditing office of the bank: the execution in a wrong order of certain activities might be an alarming signal for
+Model $\mathsf{M_1}$, on the other side, might be of interest for an employee working in the internal auditing office of the bank: the execution in a wrong order of certain activities might be an alarming signal for possible frauds.\qed
+%
+\end{example}
+
+Generally speaking, being able to specify a preference for models that refer to specific activities allows the user to answer to the question \emph{``Is it possible to discriminate between two sets of traces by looking at certain activities?''}. The discovery process is then domain-driven: many models describe the process, but those ones that focus on certain domain aspects should be searched.
+
+
+
+
+\subsection{Preferences over Declare templates}
+\label{subsec:prefOverTemplates}
+
+One of the reasons why many alternative models can be discovered starting from a log beside in the richness of the adopted process description language. For example, both BPMN and Declare allows to describe the same log using different constructs or templates. From a technical viewpoint, all the templates o models are equivalent, provided they include/exclude the same traces.
+%
+However, from a high-level viewpoint, different templates might bear subtle meaning distinctions.
+
+\begin{example}
+\label{ex:unaryVsBinary}
+Let us suppose to have the following log, whose traces have been classified into two sets:
+%
+\begin{align*}
+P & = \{\ (\mathsf{a}, \mathsf{b}),\ (\mathsf{b}, \mathsf{a})\ \} \\
+N & = \{\ (\mathsf{a}),\ (\mathsf{b})\ \}
+\end{align*}
+%
+Alternative models allowing to distinguish traces belonging to the two sets are:
+\begin{align*}
+\mathsf{M_1} & = \{ \mathsf{existence(a),existence(b)}\} \\
+\mathsf{M_2} & = \{ \mathsf{existence(a), responded\_existence(a, b)}\}
+\end{align*}
+%
+\btext{Mettiamo i modelli anche in forma grafica?}\\
+From the logical viewpoint, models $\mathsf{M_1}$ and $\mathsf{M_2}$ are equivalent, in the sense that they allow/forbid exactly the same traces\todofc{Dovremo mettere una proof di questa frase? Non ne ho mica voglia\ldots}. However, $\mathsf{M_2}$ suggests that there is a relation between activities \textsf{a} and \textsf{b}: indeed, the model contains a binary constraint, whose purpose is to highlight relations between activities.
+\qed
+\end{example}
+
+It is highly debatable if models containing unary Declare templates are better or worse than models containing binary templates. Surely, binary templates, by their nature, suggest a link between activities. Hence, a discovery algorithm that would return models with relation constraint would emphasize such links. The user would be left with the burden of understanding if such links are mere coincidences or artifacts of the discovery technique, or rather some new knowledge has been discovered about the process.
+
+We can imagine scenarios where users might want to consider models containing the minimum number of binary templates, so as to not incur into the risk of perceiving in-existent relations. On the other hand, we can easily imagine also of situations where the user is actively looking for new relations. In both cases, preferences about which templates should be included into a model would allow the user to adpat the discovery process to her needs.
+
+\begin{example}
+\label{ex:unknownShapedDifferently}
+Let us consider the following log:
+\begin{align*}
+P & = \{\ (\mathsf{a}, \mathsf{b}),\ (\mathsf{b}, \mathsf{a})\ \} \\
+N & = \{\ (\mathsf{a})\ \}
+\end{align*}
+%
+With respect to Example \ref{ex:unaryVsBinary}, here the negative examples class contains only a trace. Again, alternative models allowing to distinguish traces belonging to the two sets are:
+\begin{align*}
+\mathsf{M_1} & = \{ \mathsf{existence(a),existence(b)}\} \\
+\mathsf{M_2} & = \{ \mathsf{existence(a), responded\_existence(a, b)}\}
+\end{align*}
+%
+Let us conisder then the trace $\mathsf{(b)}$: model $\mathsf{M_1}$ rejects it, whereas model $\mathsf{M_2}$ would accept it.
+\qed
+\end{example}
+Example \ref{ex:unknownShapedDifferently} shows how traces not yet appearing in the log might be classified differently by the model. The issue stems from the fact that a log is usually a partial view of all the possible execution traces. Traces not appearing in the log might be classified differently by different models. Not-yet-seen traces are \emph{unknown} w.r.t. the classification, but different models would classify them in a different manner. Different models would \emph{shape the unknown} differently.
+%
+A preference elicitation mechanism would allow the user to decide how the not-yet-seen traces would be classified, in a restricting or in a more broaden way
+
+\btext{Esempio 4, ancora sul perchè preferrenze sui template: vincoli binari contro vincoli binari}
+
+
+\subsection{Preferences over both activities and templates}
+
+\btext{Lo mettiamo questo caso qui?}
