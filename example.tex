@@ -53,9 +53,10 @@ Generally speaking, being able to specify a preference for models that refer to 
 \subsection{Preferences over Declare templates}
 \label{subsec:prefOverTemplates}
 
-One of the reasons why many alternative models can be discovered starting from a log beside in the richness of the adopted process description language. For example, both BPMN and Declare allows to describe the same log using different constructs or templates. From a technical viewpoint, all the templates o models are equivalent, provided they include/exclude the same traces.
-%
-However, from a high-level viewpoint, different templates might bear subtle meaning distinctions.
+One of the reasons why many alternative models can be discovered starting from a log resides in the richness of the adopted process description language. For example, both BPMN and Declare allow to describe the same process using different constructs or templates. 
+However, not all the discovered models are equivalent, and even when they are equivalent, they might not carry the exact meaning. Roughly speaking, two models are \emph{equivalent} if they accept and reject the same traces. The idea of equivalence hints to the possibility that given two models $\mathsf{M_1}$ and $\mathsf{M_2}$, opting for the former or the latter will not change which traces will be accepted or rejected (by definition).
+
+\paragraph{Case 1: equivalent models.} Let us consider the simpler case where a discovery algorithm provides in output two equivalent models. If from a ``conformance viewpoint'' nothing changes, from a high-level viewpoint different models might bear subtle meaning distinctions, as shown in the following example.
 
 \begin{example}
 \label{ex:unaryVsBinary}
@@ -73,13 +74,20 @@ Alternative models allowing to distinguish traces belonging to the two sets are:
 \end{align*}
 %
 \btext{Mettiamo i modelli anche in forma grafica?}\\
-From the logical viewpoint, models $\mathsf{M_1}$ and $\mathsf{M_2}$ are equivalent, in the sense that they allow/forbid exactly the same traces\todofc{Dovremo mettere una proof di questa frase? Non ne ho mica voglia\ldots}. However, $\mathsf{M_2}$ suggests that there is a relation between activities \textsf{a} and \textsf{b}: indeed, the model contains a binary constraint, whose purpose is to highlight relations between activities.
+
+From the logical viewpoint, models $\mathsf{M_1}$ and $\mathsf{M_2}$ are equivalent\todofc{Dovremo mettere una proof di questa frase? Non ne ho mica voglia\ldots}. However, $\mathsf{M_2}$ suggests that there is a relation between activities \textsf{a} and \textsf{b}: indeed, the model contains a binary constraint, whose purpose is to highlight relations between activities. Model $\mathsf{M_1}$  instead does not tell us anything about possible links between activities \textsf{a} and \textsf{b}, and a superficial user might be tempted to think that no relation exists between the two activities, since the model does not mention a relation at all.
 \qed
 \end{example}
 
-It is highly debatable if models containing unary Declare templates are better or worse than models containing binary templates. Surely, binary templates, by their nature, suggest a link between activities. Hence, a discovery algorithm that would return models with relation constraint would emphasize such links. The user would be left with the burden of understanding if such links are mere coincidences or artifacts of the discovery technique, or rather some new knowledge has been discovered about the process.
+It is highly debatable if models containing unary Declare templates are better or worse than models containing binary templates. Surely binary templates, by their nature, suggest a link between activities. Hence, a discovery algorithm that would return models with relation constraint would emphasize such links. The user would be left with the burden of understanding if such links are mere coincidences or artifacts of the discovery technique, or rather some new knowledge has been discovered about the process.
 
-We can imagine scenarios where users might want to consider models containing the minimum number of binary templates, so as to not incur into the risk of perceiving in-existent relations. On the other hand, we can easily imagine also of situations where the user is actively looking for new relations. In both cases, preferences about which templates should be included into a model would allow the user to adpat the discovery process to her needs.
+We can imagine scenarios where users might want to consider models containing the minimum number of binary templates, so as to not incur into the risk of perceiving in-existent relations. On the other hand, we can easily imagine also of situations where the user is actively looking for new relations. In both cases, preferences about which templates should be included into a model would allow the user to adapt the discovery process to her needs.
+
+Notice also that Example \ref{ex:unaryVsBinary} might mislead the reader to think that preferences over templates is a matter of unary vs. binary constraints only. This is not the case, since equivalence is a logic property that stems from the interplay between all the constraints within each single model. Models with many binary constraints might be proved to be equivalent.
+
+
+\paragraph{Case 2: not equivalent models.}
+Let us consider then the more complex case where alternative models are discovered, and they are not equivalent. How is it possible that a discovery algorithm outputs different models, all able to correctly discriminate between positive and negative examples, but such models being not equivalent? The issue stems from the fact that a log is usually a partial view of all the possible execution traces. Traces not appearing in the log might be classified differently by different models. Not-yet-seen traces are \emph{unknown} w.r.t. the classification, but different models would classify them in a different manner. Different models would \emph{shape the unknown} differently.
 
 \begin{example}
 \label{ex:unknownShapedDifferently}
@@ -89,20 +97,32 @@ P & = \{\ (\mathsf{a}, \mathsf{b}),\ (\mathsf{b}, \mathsf{a})\ \} \\
 N & = \{\ (\mathsf{a})\ \}
 \end{align*}
 %
-With respect to Example \ref{ex:unaryVsBinary}, here the negative examples class contains only a trace. Again, alternative models allowing to distinguish traces belonging to the two sets are:
+Alternative models allowing to distinguish traces belonging to the two sets are:
 \begin{align*}
 \mathsf{M_1} & = \{ \mathsf{existence(a),existence(b)}\} \\
-\mathsf{M_2} & = \{ \mathsf{existence(a), responded\_existence(a, b)}\}
+\mathsf{M_2} & = \{ \mathsf{responded\_existence(a, b)}\}
 \end{align*}
 %
-Let us conisder then the trace $\mathsf{(b)}$: model $\mathsf{M_1}$ rejects it, whereas model $\mathsf{M_2}$ would accept it.
+Let us conisder then the trace $\mathsf{(b)}$, that was not recorded in the log. Model $\mathsf{M_1}$ would reject it, whereas model $\mathsf{M_2}$ would accept it.
 \qed
 \end{example}
-Example \ref{ex:unknownShapedDifferently} shows how traces not yet appearing in the log might be classified differently by the model. The issue stems from the fact that a log is usually a partial view of all the possible execution traces. Traces not appearing in the log might be classified differently by different models. Not-yet-seen traces are \emph{unknown} w.r.t. the classification, but different models would classify them in a different manner. Different models would \emph{shape the unknown} differently.
-%
-A preference elicitation mechanism would allow the user to decide how the not-yet-seen traces would be classified, in a restricting or in a more broaden way
 
-\btext{Esempio 4, ancora sul perchè preferrenze sui template: vincoli binari contro vincoli binari}
+Example \ref{ex:unknownShapedDifferently} shows how traces not appearing in the log used for the discovery might be then classified differently by the models. A preference elicitation mechanism would allow the user to decide how the not-yet-seen traces would be classified, in a restricting or in a broader way.
+
+
+
+% \begin{example}
+% \label{ex:alternateVsResponse}
+% Let us consider the following log:
+% \begin{align*}
+% P & = \{\ (\mathsf{a}, \mathsf{b}),\ (\mathsf{a}, \mathsf{b}, \mathsf{c})\ \} \\
+% N & = \{\ (\mathsf{a})\ \}
+% \end{align*}
+%
+% \qed
+% \end{example}
+
+% \btext{Esempio 4, ancora sul perchè preferrenze sui template: vincoli binari contro vincoli binari}
 
 
 \subsection{Preferences over both activities and templates}
