@@ -83,10 +83,28 @@ It is highly debatable if models containing unary Declare templates are better o
 
 We can imagine scenarios where users might want to consider models containing the minimum number of binary templates, so as to not incur into the risk of perceiving in-existent relations. On the other hand, we can easily imagine also of situations where the user is actively looking for new relations. In both cases, preferences about which templates should be included into a model would allow the user to adapt the discovery process to her needs.
 
-Notice also that Example \ref{ex:unaryVsBinary} might mislead the reader to think that preferences over templates is a matter of unary vs. binary constraints only. This is not the case, since equivalence is a logic property that stems from the interplay between all the constraints within each single model. Models with many binary constraints might be proved to be equivalent.
+Notice also that Example \ref{ex:unaryVsBinary} might mislead the reader to think that preferences over templates is a matter of unary vs. binary constraints only. This is not the case, since equivalence is a logic property that stems from the interplay between all the constraints within each single model. Models with many binary constraints might be proved to be equivalent. Let us consider the following example:
+
+\begin{example}
+\label{ex:alternateVsResponseEquiv}
+Let us consider the following log:
+\begin{align*}
+P & = \{\ (\mathsf{a}, \mathsf{b}),\ (\mathsf{a}, \mathsf{b}, \mathsf{c}),(\mathsf{a}, \mathsf{c}, \mathsf{b})\ \} \\
+N & = \{\ (\mathsf{a}), (\mathsf{a}, \mathsf{c})\ \}
+\end{align*}
+%
+Two alternative models that accept the postive examples and rejects the negative ones are:
+\begin{align*}
+\mathsf{M_1} & = \{ \mathsf{absence2(a),response(a,b)}\} \\
+\mathsf{M_2} & = \{ \mathsf{absence2(a),alternate\_response(a, b)}\}
+\end{align*}
+Models $\mathsf{M_1}$ and $\mathsf{M_2}$ are equivalent due to the interplay of the constraint \textsf{absence2} with the the \textsf{response} and the \textsf{alternate\_response} constraints: roughly speaking, being activity \textsf{a} forbidden to appear more than once, the effects of the stricter constraint \textsf{alternate\_reponse} are nullified.
+\qed
+\end{example}
 
 
-\paragraph{Case 2: not equivalent models.}
+
+\paragraph{Case 2: non-equivalent models.}
 Let us consider then the more complex case where alternative models are discovered, and they are not equivalent. How is it possible that a discovery algorithm outputs different models, all able to correctly discriminate between positive and negative examples, but such models being not equivalent? The issue stems from the fact that a log is usually a partial view of all the possible execution traces. Traces not appearing in the log might be classified differently by different models. Not-yet-seen traces are \emph{unknown} w.r.t. the classification, but different models would classify them in a different manner. Different models would \emph{shape the unknown} differently.
 
 \begin{example}
@@ -107,24 +125,27 @@ Let us conisder then the trace $\mathsf{(b)}$, that was not recorded in the log.
 \qed
 \end{example}
 
-Example \ref{ex:unknownShapedDifferently} shows how traces not appearing in the log used for the discovery might be then classified differently by the models. A preference elicitation mechanism would allow the user to decide how the not-yet-seen traces would be classified, in a restricting or in a broader way.
+Example \ref{ex:unknownShapedDifferently} shows how traces not appearing in the log used for the discovery might be then classified differently by the models. A preference elicitation mechanism would allow the user to decide how the not-yet-seen traces would be classified, in a restricting or in a broader way. Another example is the following:
 
-
-
-% \begin{example}
-% \label{ex:alternateVsResponse}
-% Let us consider the following log:
-% \begin{align*}
-% P & = \{\ (\mathsf{a}, \mathsf{b}),\ (\mathsf{a}, \mathsf{b}, \mathsf{c})\ \} \\
-% N & = \{\ (\mathsf{a})\ \}
-% \end{align*}
+\begin{example}
+\label{ex:alternateVsResponse}
+Let us consider the following log:
+\begin{align*}
+P & = \{\ (\mathsf{a}, \mathsf{b}),\ (\mathsf{a}, \mathsf{b}, \mathsf{c}),(\mathsf{a}, \mathsf{c}, \mathsf{b})\ \} \\
+N & = \{\ (\mathsf{a}), (\mathsf{a}, \mathsf{c})\ \}
+\end{align*}
 %
-% \qed
-% \end{example}
+Two alternative models that accept the postive examples and rejects the negative ones are:
+\begin{align*}
+\mathsf{M_1} & = \{ \mathsf{response(a,b)}\} \\
+\mathsf{M_2} & = \{ \mathsf{alternate\_response(a, b)}\}
+\end{align*}
+\qed
+\end{example}
 
+In Example \ref{ex:alternateVsResponse} both the models suffice to classify a trace into one or the other class. However, model $\mathsf{M_2}$ is \emph{stricter}, since it accepts less traces and rejects more traces than $\mathsf{M_1}$.
 % \btext{Esempio 4, ancora sul perchè preferrenze sui template: vincoli binari contro vincoli binari}
 
 
 \subsection{Preferences over both activities and templates}
 
-\btext{Lo mettiamo questo caso qui?}
