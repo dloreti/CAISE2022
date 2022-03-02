@@ -1,16 +1,18 @@
 %!TEX root = ./main.tex
 
-\section{Motivating Examples\ldots\ or ``which type or preferences we would like to see''}
+% \section{Motivating Examples\ldots\ or ``which type or preferences we would like to see''}
+\section{Why preferences over discovered models?}
 \label{sec:example}
 
-%\btext{Not sure we need a motivating example. Forse discutere le cose in intro basta.}
 
-Users look for discovering models for a variety of reasons. A common one is linked to the need of having a description/explanation of the process. Other reasons might be, for example, the need for detecting process deviations or process drifts. Or, as in the case with \nd, users might be interested to understand, from a model viewpoint, what distinguishes one set of traces from another. Depending on the discovery technique, many alternative models might be available to describe the same process. The availability of many models might, in turn, hinder the usefulness of the discovery approach: the user will need a criterion for selecting few models among the many discovered.
+Users look for discovering models for a variety of reasons. A common one is related to the need of having a description/explanation of the process. Other reasons might be, for example, the need for detecting process deviations or process drifts. Or, as in the case with \nd, users might be interested to understand, from a model viewpoint, what distinguishes one set of traces from another. 
 
+Depending on the discovery technique and the target language, many alternative models might describe the same process. For example, both BPMN and Declare allow to describe the same process using different constructs or templates. However, not all the discovered models are equivalent\footnote{Roughly speaking, two models are \emph{equivalent} if they accept and reject the same traces. Such a notion of equivalence hints to the possibility that given two models $\mathsf{M_1}$ and $\mathsf{M_2}$, opting for the former or the latter will not change which traces will be accepted or rejected.}
+, and even when they are equivalent, there could be too many models to choose from.
 
-%Sometimes, the user might focus on a sub-part of the process, like in \cite{}\todofc{Stavo pensando a citare il hierarchical miner, mi pare si chiami così\ldots}. Other times, the user is interested to focus on certain specific activities, because of some domain-related aspects, or other needs
-
-Preferences over discovered models are then a way for supporting the user's needs: in particular, preferences over single activities, preferences over single model templates, and possibly combinations of both preference types might be of help to select those discovered models that better fit user's goals.
+Hence, the availability of many models might, in turn, hinder the usefulness of the discovery approach: the user will need a criterion for selecting few models among the many discovered.
+%
+Preferences over discovered models are then a way for supporting the user's needs. In particular, we envisage three different types of preferences: preferences over single activities, preferences over single model templates, and possibly combinations of both.
 
 
 
@@ -20,6 +22,7 @@ Preferences over discovered models are then a way for supporting the user's need
 A first type of preference among discovered models is strictly related to the application domain. We can reasonably imagine that, depending on the user's goals, models that focus more on certain activities might be preferable w.r.t. other models.
 
 \begin{example}
+\label{ex:prefOverActivities}
 Let us consider the quite common ``loan scenario'', where a bank receives a request for a loan, evaluates it, and provides an answer. Let us suppose that process instances have been classified into two sets, for example using some unexplainable machine learning method. The bank employee will look then for a model that helps her to understand differences between the two sets. Of course, the employee will not directly look into the logs, that for the easy of understanding we can suppose to be as follows:
 % Let us consider the following, fictitious example, where both the positive and the negative sets contain only one trace each:
 %
@@ -28,20 +31,16 @@ P & = \{\ (\mathsf{loanRequest}, \mathsf{requestEval}, \mathsf{notifyOutcome})\ 
 N & = \{\ (\mathsf{requestEval}, \mathsf{loanRequest})\ \}
 \end{align*}
 %
-%The $P$ set reports only a trace, where the three activities of loan request, evaluation, and notification of the outcome are executed in order. The $N$ set also contains only a trace, where a request has been evaluated before the request was made 
-% The negative example reports a trace where only the evaluation of a request was performed, but no request for a loan was received, and no outcome was notified after.
-Alternative Declare models that might help to discriminate positive from negative examples might be\footnote{Other models exist, of course, but for the sake of clarity we mention only these models.}:
+where the positive example set $P$ contains only one trace (lasting three activities), and the negative example set $N$ contains a single trace as well.
+
+\noindent An employee working in the marketing department has in mind the bank slogan ``we always answer our customers''. Hence, she would be surely interested in the \textsf{notifyOutcome} activity. She would specify such preference, and the discovery algorithm would reply her with two models both involving the preferred activity\footnote{Other models exist, of course, but for the sake of clarity we mention only these models.}:
 %
 \begin{align*}
-\mathsf{M_1} & = \{ \mathsf{precedence(requestEval,loanRequest)}\} \\
-\mathsf{M_2} & = \{ \mathsf{response(requestEval, notifyOutcome)}\} \\
-\mathsf{M_3} & = \{ \mathsf{existence(notifyOutcome)}\}
+\mathsf{M_1} & = \{ \mathsf{response(requestEval, notifyOutcome)}\} \\
+\mathsf{M_2} & = \{ \mathsf{existence(notifyOutcome)}\}
 \end{align*}
 %
-Let us suppose that the user doing the discovery is employed in the marketing department, and thus she has in mind the bank slogan ``we always answer to our customers requests''. Surely, she would be more interested to models $\mathsf{M_2}$ and $\mathsf{M_3}$, that indeed show constraints dealing with the \textsf{notifyOutcome}.
-%
-%Model $\mathsf{M_1}$, on the other side, underlines a possible misbehavior in the logging system, where apparently two activities happened in a possibly wrong order. This model might be of interest of an employee working in the internal auditing office of the bank: the execution in a wrong order of certain activities might be an alarming signal for
-Model $\mathsf{M_1}$, on the other side, might be of interest for an employee working in the internal auditing office of the bank: the execution in a wrong order of certain activities might be an alarming signal for possible frauds.\qed
+\qed
 %
 \end{example}
 
@@ -53,10 +52,11 @@ Generally speaking, being able to specify a preference for models that refer to 
 \subsection{Preferences over Declare templates}
 \label{subsec:prefOverTemplates}
 
-One of the reasons why many alternative models can be discovered starting from a log resides in the richness of the adopted process description language. For example, both BPMN and Declare allow to describe the same process using different constructs or templates. 
-However, not all the discovered models are equivalent, and even when they are equivalent, they might not carry the exact meaning. Roughly speaking, two models are \emph{equivalent} if they accept and reject the same traces. The idea of equivalence hints to the possibility that given two models $\mathsf{M_1}$ and $\mathsf{M_2}$, opting for the former or the latter will not change which traces will be accepted or rejected (by definition).
+Process description languages like, e.g., BPMN and Declare, are quite rich in their expressiveness, and allow to describe a process using different constructs or templates. This lead to the availability of alternative models that could be equivalent or not. Unfortunately, even when restricting our attention to equivalent models only, it is easy to see that they might not carry the exact meaning.
 
-\paragraph{Case 1: equivalent models.} Let us consider the simpler case where a discovery algorithm provides in output two equivalent models. If from a ``conformance viewpoint'' nothing changes, from a high-level viewpoint different models might bear subtle meaning distinctions, as shown in the following example.
+% One of the reasons why many alternative models can be discovered starting from a log resides in the richness of the adopted process description language. For example, both BPMN and Declare allow to describe the same process using different constructs or templates.  However, not all the discovered models are equivalent, and even when they are equivalent, they might not carry the exact meaning. Roughly speaking, two models are \emph{equivalent} if they accept and reject the same traces. hints to the possibility that given two models $\mathsf{M_1}$ and $\mathsf{M_2}$, opting for the former or the latter will not change which traces will be accepted or rejected (by definition).
+
+\paragraph{Case 1: Equivalent models.} Let us consider the simpler case where a discovery algorithm provides in output two equivalent models. If from a ``conformance viewpoint'' nothing changes, from a high-level viewpoint different models might bear subtle meaning distinctions, as shown in the following example.
 
 \begin{example}
 \label{ex:unaryVsBinary}
@@ -70,20 +70,23 @@ N & = \{\ (\mathsf{a}),\ (\mathsf{b})\ \}
 Alternative models allowing to distinguish traces belonging to the two sets are:
 \begin{align*}
 \mathsf{M_1} & = \{ \mathsf{existence(a),existence(b)}\} \\
-\mathsf{M_2} & = \{ \mathsf{existence(a), responded\_existence(a, b)}\}
+\mathsf{M_2} & = \{ \mathsf{existence(a), responded\_existence(a, b)}\} \\
+\mathsf{M_3} & = \{ \mathsf{existence(b), responded\_existence(b, a)}\} \\
+\mathsf{M_4} & = \{ \mathsf{existence(a), co\_existence(a, b)}\} \\
+\mathsf{M_5} & = \{ \mathsf{existence(b), co\_existence(a, b)}\}
 \end{align*}
 %
-\btext{Mettiamo i modelli anche in forma grafica?}\\
 
-From the logical viewpoint, models $\mathsf{M_1}$ and $\mathsf{M_2}$ are equivalent\todofc{Dovremo mettere una proof di questa frase? Non ne ho mica voglia\ldots}. However, $\mathsf{M_2}$ suggests that there is a relation between activities \textsf{a} and \textsf{b}: indeed, the model contains a binary constraint, whose purpose is to highlight relations between activities. Model $\mathsf{M_1}$  instead does not tell us anything about possible links between activities \textsf{a} and \textsf{b}, and a superficial user might be tempted to think that no relation exists between the two activities, since the model does not mention a relation at all.
+From the logical viewpoint, models $\mathsf{M_1}$--$\mathsf{M_5}$ are equivalent. However, models $\mathsf{M_2}$--$\mathsf{M_5}$ suggests that there is a relation between activities \textsf{a} and \textsf{b}: indeed, the models contain a binary constraint, whose purpose is indeed to highlight relations between activities. Model $\mathsf{M_1}$  instead does not tell us anything about possible links between activities \textsf{a} and \textsf{b}, and a user might conclude that no relation exists between the two activities.
 \qed
 \end{example}
 
-It is highly debatable if models containing unary Declare templates are better or worse than models containing binary templates. Surely binary templates, by their nature, suggest a link between activities. Hence, a discovery algorithm that would return models with relation constraint would emphasize such links. The user would be left with the burden of understanding if such links are mere coincidences or artifacts of the discovery technique, or rather some new knowledge has been discovered about the process.
+%It is highly debatable if models containing unary Declare templates are better or worse than models containing binary templates.
+Declare binary templates, by their nature, suggest a link between activities. Hence, a discovery algorithm that would return models with relation constraints would emphasize such links. The user would be left with the burden of understanding if such links are mere coincidences or artifacts of the discovery technique, or if rather some new knowledge has been discovered about the process.
 
-We can imagine scenarios where users might want to consider models containing the minimum number of binary templates, so as to not incur into the risk of perceiving in-existent relations. On the other hand, we can easily imagine also of situations where the user is actively looking for new relations. In both cases, preferences about which templates should be included into a model would allow the user to adapt the discovery process to her needs.
+We can imagine scenarios where users prefer models containing the minimum number of binary templates, so as to not incur into the risk of perceiving in-existent relations. On the other hand, we can easily imagine also of situations where the user is actively looking for new relations. In both cases, preferences about which templates should be preferably included into a model would allow the user to adapt the discovery process to her needs.
 
-Notice also that Example \ref{ex:unaryVsBinary} might mislead the reader to think that preferences over templates is a matter of unary vs. binary constraints only. This is not the case, since equivalence is a logic property that stems from the interplay between all the constraints within each single model. Models with many binary constraints might be proved to be equivalent. Let us consider the following example:
+Notice also that Example \ref{ex:unaryVsBinary} might mislead the reader to think that preferences over templates is a matter of unary vs. binary constraints only. This is not true, since equivalence is a logic property that stems from the interplay between all the constraints within each single model. Models with many binary constraints might be proved to be equivalent. Let us consider the following example:
 
 \begin{example}
 \label{ex:alternateVsResponseEquiv}
@@ -104,8 +107,10 @@ Models $\mathsf{M_1}$ and $\mathsf{M_2}$ are equivalent due to the interplay of 
 
 
 
-\paragraph{Case 2: non-equivalent models.}
-Let us consider then the more complex case where alternative models are discovered, and they are not equivalent. How is it possible that a discovery algorithm outputs different models, all able to correctly discriminate between positive and negative examples, but such models being not equivalent? The issue stems from the fact that a log is usually a partial view of all the possible execution traces. Traces not appearing in the log might be classified differently by different models. Not-yet-seen traces are \emph{unknown} w.r.t. the classification, but different models would classify them in a different manner. Different models would \emph{shape the unknown} differently.
+\paragraph{Case 2: Non-equivalent models.}
+Let us consider then the more complex case where alternative models are discovered, and they are not equivalent. This happens because a log is usually a partial view of all the possible execution traces. Traces not appearing in the log might be classified differently by different models. Not-yet-seen traces are \emph{unknown} w.r.t. the classification, but different models would classify them in a different manner. Different models would \emph{shape the unknown} differently.
+% How is it possible that a discovery algorithm outputs different models, all able to correctly discriminate between positive and negative examples, but such models being not equivalent?
+% The issue stems from the fact that a log is usually a partial view of all the possible execution traces. Traces not appearing in the log might be classified differently by different models. Not-yet-seen traces are \emph{unknown} w.r.t. the classification, but different models would classify them in a different manner. Different models would \emph{shape the unknown} differently.
 
 \begin{example}
 \label{ex:unknownShapedDifferently}
@@ -121,7 +126,7 @@ Alternative models allowing to distinguish traces belonging to the two sets are:
 \mathsf{M_2} & = \{ \mathsf{responded\_existence(a, b)}\}
 \end{align*}
 %
-Let us conisder then the trace $\mathsf{(b)}$, that was not recorded in the log. Model $\mathsf{M_1}$ would reject it, whereas model $\mathsf{M_2}$ would accept it.
+Let us consider then the trace $\mathsf{(b)}$, that was not recorded in the log. Model $\mathsf{M_1}$ would reject it, whereas model $\mathsf{M_2}$ would accept it.
 \qed
 \end{example}
 
@@ -143,9 +148,34 @@ Two alternative models that accept the postive examples and rejects the negative
 \qed
 \end{example}
 
-In Example \ref{ex:alternateVsResponse} both the models suffice to classify a trace into one or the other class. However, model $\mathsf{M_2}$ is \emph{stricter}, since it accepts less traces and rejects more traces than $\mathsf{M_1}$.
+In Example \ref{ex:alternateVsResponse} both the models suffice to classify a trace into one or the other class. However, model $\mathsf{M_2}$ is \emph{stricter}, since it accepts less traces and rejects more traces than $\mathsf{M_1}$. A user might express his preferences for more stricter or more general models.
 % \btext{Esempio 4, ancora sul perchè preferrenze sui template: vincoli binari contro vincoli binari}
 
 
 \subsection{Preferences over both activities and templates}
+\label{sub:prefOverBoth}
 
+
+The third type of preference over process models is a straightforward combination of the preference types introduced in Subsections \ref{subsec:prefOverActivities} and \ref{subsec:prefOverTemplates}. Domain-related knowledge would drive the attention to certain activities, and preferences between the template types would allow to focus on certain relation types.
+
+
+\begin{example}
+\label{ex:prefOverBoth}
+Let us consider again the ``loan scenario'' previously introduced, and the same log as well:
+%
+\begin{align*}
+P & = \{\ (\mathsf{loanRequest}, \mathsf{requestEval}, \mathsf{notifyOutcome})\ \} \\
+N & = \{\ (\mathsf{requestEval}, \mathsf{loanRequest})\ \}
+\end{align*}
+%
+Let us assume now the viewpoint of an employee working in the internal auditing department. Given that the wrong execution order of certain activities might be a symptom of some fraud, the employee would like to focus the attention to templates of type \textsf{response} and/or \textsf{precedence}, and in particular to those constraints involving the \textsf{requestEval} activity. The discovery algorithm would exploit such preference by looking for models with the elicited features, and would provide in outpur:
+%
+\begin{align*}
+\mathsf{M} & = \{ \mathsf{precedence(requestEval,loanRequest)}\} \\
+\end{align*}
+%
+\qed
+%
+\end{example}
+
+Notice that Example \ref{ex:prefOverBoth} shares the exact same log as Example \ref{ex:prefOverActivities}. However, the output is completely different: the user preference is used to guide the search for a model, thus giving in output models that should be of greater interest for the user.
