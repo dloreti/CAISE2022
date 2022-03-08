@@ -143,9 +143,9 @@ N & = \{\ (\mathsf{a}), (\mathsf{a}, \mathsf{c})\ \}
 Two alternative models that accept the postive examples and rejects the negative ones are:
 \begin{align*}
 \mathsf{M_1} & = \{ \mathsf{response(a,b)}\} \\
-\mathsf{M_2} & = \{ \mathsf{alternate\_response(a, b)}\}
+\mathsf{M_2} & = \{ \mathsf{alternate\_response(a, b)}\} \tag*{$\square$}
 \end{align*}
-\qed
+%\qed
 \end{example}
 
 In Example \ref{ex:alternateVsResponse} both the models suffice to classify a trace into one or the other class. However, model $\mathsf{M_2}$ is \emph{stricter}, since it accepts less traces and rejects more traces than $\mathsf{M_1}$. A user might express his preferences for more stricter or more general models.
@@ -171,11 +171,9 @@ N & = \{\ (\mathsf{requestEval}, \mathsf{loanRequest})\ \}
 Let us assume now the viewpoint of an employee working in the internal auditing department. Given that the wrong execution order of certain activities might be a symptom of some fraud, the employee would like to focus the attention to templates of type \textsf{response} and/or \textsf{precedence}, and in particular to those constraints involving the \textsf{requestEval} activity. The discovery algorithm would exploit such preference by looking for models with the elicited features, and would provide in outpur:
 %
 \begin{align*}
-\mathsf{M} & = \{ \mathsf{precedence(requestEval,loanRequest)}\} \\
+\mathsf{M} & = \{ \mathsf{precedence(requestEval,loanRequest)}\} \tag*{$\square$}
 \end{align*}
-%
-\qed
-%
+%\qed
 \end{example}
 
 Notice that Example \ref{ex:prefOverBoth} shares the exact same log as Example \ref{ex:prefOverActivities}. However, the output is completely different: the user preference is used to guide the search for a model, thus giving in output models that should be of greater interest for the user.
