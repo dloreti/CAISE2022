@@ -4,8 +4,20 @@
 %
 \documentclass[runningheads]{llncs}
 %
+%\usepackage[T1]{fontenc}
 \usepackage{graphicx}
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+%
+% If you use the hyperref package, please uncomment the following line
+% to display URLs in blue roman font according to Springer's eBook style:
+%\renewcommand\UrlFont{\color{blue}\rmfamily}
+
+
 \usepackage{todonotes}[inline]
+\newcommand{\todofc}[1]{\todo[backgroundcolor=yellow,size=\tiny]{FC: #1}}
+\newcommand{\tododl}[1]{\todo[backgroundcolor=pink,size=\tiny]{DL: #1}}
+
 \usepackage{hyperref}
 \usepackage{array}
 \usepackage{multirow}
@@ -22,21 +34,8 @@
 \usepackage[nolist]{acronym}
 %\usepackage{newtxtext}
 
-%%%
+
 \usepackage{amssymb,amsmath}
-%\usepackage{amsthm}
-
-%\theoremstyle{definition}
-%\newtheorem{definition}{Definition}[section]
-%\newtheorem{theorem}{Theorem}[section]
-%\newtheorem{lemma}{Lemma}[section]
-%\newtheorem{remark}{Remark}[section]
-
-%\theoremstyle{plain}
-%\newtheorem{example}{Example}[section]
-%%%
-
-
 \newcommand{\nd}{\texttt{NegDis}\xspace}
 \newcommand{\declare}{\texttt{Declare}\xspace}
 
@@ -50,18 +49,12 @@
 
 \newcommand\btext[1]{{\color{blue}{#1}}}
 
-\newcommand{\todofc}[1]{\todo[backgroundcolor=yellow,size=\tiny]{FC: #1}}
-\newcommand{\tododl}[1]{\todo[backgroundcolor=pink,size=\tiny]{DL: #1}}
+\newcommand{\sheriff}{sheriffs}
 
 
 
-% Used for displaying a sample figure. If possible, figure files should
-% be included in EPS format.
-%
-% If you use the hyperref package, please uncomment the following line
-% to display URLs in blue roman font according to Springer's eBook style:
-% \renewcommand\UrlFont{\color{blue}\rmfamily}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 %
 %\title{A literature-based business process meta-model}
@@ -69,7 +62,7 @@
 %\title{Digging into BPM meta-models: criticalities and ideas towards solutions}
 
 %
-%\titlerunning{Abbreviated paper title}
+\titlerunning{Shape Your Process}
 % If the paper title is too long for the running head, you can set
 % an abbreviated paper title here
 %
