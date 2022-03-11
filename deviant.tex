@@ -40,32 +40,25 @@ For brevity in the rest of the paper, we will omit the set $R$ and we will simpl
 
 
 
-From a theoretical point of view, the \nd approach can be seen as a two-step procedure. % which takes as input:
-%\begin{itemize}
-%  \item $D$ set of Declare templates (language bias)
-%  \item $A$ set of activities
-%  \item $cl$ closure operator equipped with a set $R$ of subsumption rules. $cl: \mathcal{P}(D[A])\rightarrow\mathcal{P}(D[A])$
-%  \item $L^+$ log traces labelled as positive. $L^+ \subseteq A^*$
-%  \item $L^-$ log traces labelled as negative. $L^- \subseteq A^*$
-%  \item $P$ initial model. $P\subseteq \{c\in D[A] ~|~  \forall t\in L^+,\, t\models c\}$
-%\end{itemize}
-The goal of the first step is to find all the constraints in $D[A]$ which accept all positive traces and reject at least a negative one. Therefore, it starts by computing the \emph{compatibles} set, i.e., the set of constraints that accepts all traces in $L^+$: 
+Conceptually, the \nd approach can be seen as a two-step procedure: in the first step a set of candidate constraints are selected, and then solutions are selected among the (appropriate) subsets of the candidates via an optimisation algorithm.
+%
+The set of candidate constraints is composed by those in $D[A]$ which accept all positive traces and reject at least a negative one. This is built by identifying the \emph{compatibles} set, i.e., the set of constraints that accepts all traces in $L^+$: 
 \begin{equation}
 {compatibles(D[A], L^+)} = \{c\in D[A]~|~\forall t\in L^+,~ t\models c \} \\
 \end{equation}
 %
-Then, it builds the \textit{\sheriff} function to associate to any trace $t$ in $L^-$ the constraints of \textit{compatibles} that rejects $t$:
+Then, it defines the \textit{\sheriff} function to associate to any trace $t$ in $L^-$ the constraints of \textit{compatibles} that rejects $t$:
 \begin{equation}
 {\textit{\sheriff}}(t) = \{c\in {compatibles}~|~t\not\models c\} \\
 \end{equation}
 %
-The \textit{\sheriff} function is used to identify the set of all candidate constraints from which a model can be selected; that is, the set $\mathcal{C}$ of all the constraints in $D[A]$ accepting all positive traces and rejecting at least one negative trace, i.e., $\mathcal{C} = \bigcup_{t\in L^-} \textit{\sheriff}(t)$. The solutions are selected from the set 
+The \textit{\sheriff} function is used to construct the set of all candidate constraints from which a model can be selected; that is, the set $\mathcal{C}$ of all the constraints in $D[A]$ accepting all positive traces and rejecting at least one negative trace, i.e., $\mathcal{C} = \bigcup_{t\in L^-} \textit{\sheriff}(t)$. The solutions are selected from the set 
 \begin{equation}
   \mathcal{Z}=\{M\in\mathcal{P}(\mathcal{C})\mid \forall t\in L^-~t\not\models M\cup P \text{ or } {\textit{\sheriff}}(t) = \emptyset \}
 \end{equation}
 according to a certain domain-independent\todo{ST: why domain-independent?} criterion. Due to the fact that not all the pairs of negative and positive set of traces can be perfectly separated by Declare~\cite{???}\todo{ST: reference to the paper}, there can be traces in $L^-$ for which the ${\textit{\sheriff}}$ is empty; we know that those cannot be excluded by any model that guarantees the acceptance of all the positive ones.
 
-In~\cite{deviant-tkde}, two different criteria were taken into account: \emph{generality} (or conversely, \emph{specificity}), and \emph{simplicity}.
+The second step uses an optimisation strategy to identify the solutions; in~\cite{deviant-tkde}, two different criteria were taken into account: \emph{generality} (or conversely, \emph{specificity}), and \emph{simplicity}.
 If the user is interested in the most general model, then \nd employs the closure operator $cl$ to select the models $S \in \mathcal{Z}$ with the less restricting consequences; that is, using the order $S\preceq S'$ defined by the subset of the closures $cl(S\cup P)\subseteq cl(S'\cup P)$.
 If the user wants the simplest model, \nd look for the solutions with minimal size of the closure, and, in case of ties, the size of the candidate; i.e., according to the lexicographic order of the pairs $(|cl(S\cup P)|, |S|)$.
 
