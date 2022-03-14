@@ -3,6 +3,111 @@
 \section{Evaluating the discovery}
 \label{sec:evaluation}
 
-\btext{@all? (in particolare chiara DF, FAbrizio, Marco e sergio per pensarla). Pensare alla valutazione. Ho recuperato i due dataset dei danesi (vedi git). Se volete si possono usare questi, pero' uno dei due log in realta' e' un insieme di 215 logs di cui loro hanno fatto la media. Forse io ne sceglierei due o tre (es Dreyers Foundation.xes + uno o due dei 215) e farei la valutazione su questi. Anche perche' piu' che valutazione e' far vedere cosa esce perche' nn mi e' chiaro come valutiamo n termini di metriche l'output.}
+% \btext{@all? (in particolare chiara DF, FAbrizio, Marco e sergio per pensarla). Pensare alla valutazione. Ho recuperato i due dataset dei danesi (vedi git). Se volete si possono usare questi, pero' uno dei due log in realta' e' un insieme di 215 logs di cui loro hanno fatto la media. Forse io ne sceglierei due o tre (es Dreyers Foundation.xes + uno o due dei 215) e farei la valutazione su questi. Anche perche' piu' che valutazione e' far vedere cosa esce perche' nn mi e' chiaro come valutiamo n termini di metriche l'output.}
 
+In Section \ref{sec:example} we motivated some type of preferences by means of simple toy-like examples. The interested reader however might wonder about the usability and efficacy of our approach w.r.t. real-life cases. Having this in mind, we explored the appliability of our approach to two real-life event logs, namely DREYERS and CERV.
+
+
+\subsection{The DREYERS log}
+\label{subsec:dreyers}
+
+The DREYERS log describes the Dreyer Foundation’s processes, regarding their support to legal and architectural projects and applications, and it has been used in related works \cite{DBLP:conf/ssci/DeboisS15,DBLP:conf/bpm/SlaatsDB21}. In the Dreyers process, each application that aims to obtain the Foundation's support goes through a pre-screen that can lead to an initial rejection. The remaining applications undergo a review, in which at least one of the reviewers must be a lawyer or an architect, depending on the type of application. The review phase is followed by a board meeting, where the Foundation decides which applications to support: in case of success the application is granted a payout.
+
+As previously done in \cite{DBLP:conf/bpm/SlaatsDB21}, two sets of log traces are available: process instances that execute properly have been labelled as the positive example set, while log traces whose process instances do not adhere to the proper execution path belong to the negative example set. The labeling of the traces was already available in the log, and we were not aware of any criteria used in the labeling.
+
+Hence, we decided to play a sort of ``investigation game'', and to explore the hypothesis that indeed the type of application (architect-type or lawyer type) might affect the process outcome. More generally, one might be interested in knowing if there are any differences in models that explicitly mention one of the two possible types of application, so as to understand the possible variations in the process, depending on the legal or architectural context. To distinguish (traces referring to) the two types of applications, we resorted to focus on two activities that are peculiar of each application type, namely the “Lawyer Review” activity and the “Architect Review” activity.
+
+
+Since the type of application can be inferred from the type of reviewer, we applied our approach by providing a preference on the “Lawyer Review” activity and later on the “Architect Review” activity.
+%
+The models returned by our approach with these two requirements are respectively:
+
+\begin{align*}
+\mathsf{M_1} = \{ & \\
+ & \mathsf{absence2(Initial\ rejection)} \\
+ & \mathsf{ alternate\_response(Undo\ payment, First\ payout)} \\
+ & \mathsf{ choice(Round\ ends, Change\ phase\ to\ Abort)} \\
+ & \mathsf{ notchainsuccession(Set\ to\ Pre\ approved, Round\ ends)} \\
+ & \mathsf{ notchainsuccession(Receive\ final\ report, First\ payout)} \\
+ & \mathsf{ notchainsuccession(Change\ phase\ to\ Preparation, Approve\ application)} \\
+ & \mathsf{ notchainsuccession(Change\ phase\ to\ Preparation, Execute\ Pre\ decision)} \\
+ & \mathsf{ notchainsuccession(Change\ phase\ to\ Preparation, Approval\ on\ to\ the\ board)} \\
+ & \mathsf{ notchainsuccession(Initial\ rejection, Lawyer\ Review)} \\
+ \} & \\
+\mathsf{M_2} = \{ & \\
+ & \mathsf{absence2(Initial\ rejection)} \\
+ & \mathsf{ alternate\_response(Undo\ payment, First\ payout)} \\
+ & \mathsf{ choice(Round\ Ends, Change\ phase\ to\ Abort)} \\
+ & \mathsf{ notchainsuccession(Set\ to\ Pre\ approved, Round\ Ends)} \\
+ & \mathsf{ notchainsuccession(Receive\ final\ report, First\ payout)} \\
+ & \mathsf{ notchainsuccession(Change\ phase\ to\ Preparation, Approve\ application)} \\
+ & \mathsf{ notchainsuccession(Change\ phase\ to\ Preparation, Execute\ Pre\ decision)} \\
+ & \mathsf{ notchainsuccession(Change\ phase\ to\ Preparation, Approval\ on\ to\ the\ board)} \\
+ & \mathsf{ notchainsuccession(Initial\ rejection, Architect\ Review)} \\
+ \} & 
+\end{align*}
+
+In both cases a model satisfying the preferences was found. However, the two models are nearly identical.
+
+\btext{DA FINIRE DOPO AVER PARLATO CON GIULIA}
+
+
+% a) that our approach works in finding a model with the desired characteristics and, b) in this particular case, corroborate the idea that the process is independent of the application domain, as expect from the process description.
+
+
+%%%M1 = {     absence2(Initial rejection),  
+%%%alternateresponse(Undo payment, First payout), 
+%%%choice(Round Ends, Change phase to Abort), 
+%%%notchainsuccession(Set to Pre approved, Round Ends),
+%%% notchainsuccession(Receive final report, First payout), 
+%%%notchainsuccession(Change phase to Preparation, Approve application), 
+%%%notchainsuccession(Change phase to Preparation, Execute Pre decision), 
+%%%notchainsuccession(Change phase to Preparation, Approval on to the board), 
+%%%notchainsuccession(Initial rejection, Lawyer Review) }
+
+%%%M2 = {     absence2(Initial rejection),  
+%%%alternateresponse(Undo payment, First payout), 
+%%%choice(Round Ends, Change phase to Abort), 
+%%%notchainsuccession(Set to Pre approved, Round Ends), 
+%%%notchainsuccession(Receive final report, First payout), 
+%%%notchainsuccession(Change phase to Preparation, Approve application), 
+%%%notchainsuccession(Change phase to Preparation, Execute Pre decision), 
+%%%notchainsuccession(Change phase to Preparation, Approval on to the board), 
+%%%notchainsuccession(Initial rejection, Architect Review)  }
+
+%NegDis is able to return models that satisfy the whole positive log and violate all but three negative traces.
+
+%%%[Altrimenti ci sono questi due. Per architect è il secondo modello restituito, mentre per lawyer sono andata a cercare la prima volta in cui l’azione “lawyer review” compare nello stesso constraint di architect (circa il decimo modello restituito). I due modelli sono un po’ diversi (in grassetto le differenze). Io non riesco a dargli un significato, ma magari tu sì… (però il fatto di non aver trovato il modello uguale non significa che ci sia davvero una differenza nel processo, magari non l’ho cercato abbastanza)]
+%%%
+%%%absence2(Initial rejection), choice(Round Ends, Applicant informed), notchainsuccession(applicant demonstrates relevance of the application, Lawyer Review), response(Undo payment, First payout), notchainsuccession(Receive final report, First payout), notchainsuccession(Change phase to Preparation, Approve application), notchainsuccession(Change phase to Preparation, Execute Pre decision), notchainsuccession(Change phase to Preparation, Approval on to the board), notsuccession(Round approved, Set to Pre approved) 
+%%%
+%%%absence2(Initial rejection), choice(Round Ends, Change phase to Abort), notchainsuccession(applicant demonstrates relevance of the application, Architect Review), alternateresponse(Undo payment, First payout), notchainsuccession(Receive final report, First payout), notchainsuccession(Change phase to Preparation, Approve application), notchainsuccession(Change phase to Preparation, Execute Pre decision), notchainsuccession(Change phase to Preparation, Approval on to the board),
+%%%notchainsuccession(Set to Pre approved, Round Ends
+
+
+\subsection{Evaluation on the CERV log}
+\label{subsec:cerv}
+
+CERV is an event log that describes the process of cervical cancer screening in an Italian screening center, and it has been used in a previous related work \cite{??,deviant-tkde}. The screening program is composed of five phases, organized sequentially: screening planning, invitation management, first level test with pap-test, second level test with colposcopy (only if the first test is positive), and eventually biopsy (if the second test gives a positive response). A number of subjects do not respect the planned protocol: for example, subjects do not show up at the first test, even if they chose the temporal slot themselves. Moreover, a number of subjects prefer to consult other physicians they trust more, if the second or the third test gave a positive response. All these cases provided a great variety of process instances that, from the viewpoint of the manager, are not compliant with the intended protocol, as it commonly happens in socio-technical systems.
+%
+Hence, the traces have been labeled by a domain expert as belonging either to the positive or the negative set, depending on their compliance to the adopted protocol.
+
+
+%All models returned by NegDis satisfy the whole positive log and violate all the negative traces. 
+In this example, we applied the preferences approach over the “precedence” and “succession” Declare templates. The two first resulting models for, respectively, precedence and succession are as follows:
+
+M1: {    alternateresponse(send positive pap test result, take a colposcopy examination), 
+chainprecedence,invito(take a pap test examination), 
+exclusivechoice(send pap test sample reject),
+precedence(send colposcopy uncertain result, send biopsy sample) }
+
+M2: {     alternateresponse(send positive pap test result, take a colposcopy examination),
+chainprecedence,invito(take a pap test examination),
+exclusivechoice(send pap test sample, reject),
+succession(send colposcopy uncertain result, send biopsy sample) }
+
+These are identical except for the constraints targeted by the preferences, that give a slightly different meaning to the models. In the first model, the precedence constraint implies that a biopsy is executed only if the colposcopy examination has an uncertain result, while the succession constraint in the second model also entails that the biopsy is always executed in those circumstances, giving an additional information.
+However, the second model would not exist without the preference expression, because “precedence” subsumes “succession” and the generality criterion would prune it [la sussunzione e il criterio di generalità li assumo già spiegati, vero?].  
+
+A second example on this event log aims to demonstrate the important contribution of a negative preference, that is, a preference for the absence of a certain activity or template in the model. We applied this kind of preference on the “reject” action and we didn’t obtain any model satisfying the desired criterion. However, this result still offers a valuable information, as it guarantees that the “reject” activity is essential to distinguish between the positive and negative traces.
 
