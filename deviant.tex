@@ -25,7 +25,7 @@ Given the initial model $P$, a candidate solution for the discovery task is any 
 \end{definition}
 
 \declare templates can be organised into a hierarchy of \emph{subsumption} \cite{2017-DiCiccio} according to the logical implications derivable from their semantics. Consistently with this concept, we introduce the following definition of \emph{generality} relation between models.
-\begin{definition}{}
+\begin{definition}{}\label{def:subs}
 a model $M\subseteq D[A]$ is more general than $M'\subseteq D[A]$ (written as $M \succeq M'$) when for any $t\in A^*$, $t\models M' \Rightarrow t\models M$ , and strictly more general (written as $M \succ M'$) if $M$ is more general than $M'$ and there exists a $t'\in A^*$ s.t.\ $t'\not\models M'$ and $t'\models M$.
 \end{definition}
 
