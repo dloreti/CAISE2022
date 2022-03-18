@@ -1,8 +1,10 @@
 **/.DS*
-**/main.aux
-**/main.bbl
-**/main.blg
-**/main.log
-**/main.out
+**/*.aux
+**/*.bbl
+**/*.blg
+**/*.log
+**/*.out
 **/main.pdf
-**/main.synctex.gz
+**/*.synctex.gz
+*.fdb_latexmk
+*.fls
