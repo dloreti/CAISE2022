@@ -85,7 +85,14 @@ Free University of Bozen/Bolzano, Italy\\
 \maketitle              % typeset the header of the contribution
 %
 \begin{abstract}
-ADD ABSTRACT\tododl{page limit: 16pp}
+% ADD ABSTRACT\tododl{page limit: 16pp}
+
+Process Discovery techniques focus on learning a process model starting from a given set of logged traces. The majority of the approaches consider only one set of examples to learn from, i.e. the log itself. Some recent works instead advocated the usefulness of taking into account two different sets of traces (aka positive and negative examples), with the goal of learning a process model that allows to discriminate which trace belongs to which set.
+
+When discovering declarative process models, the aim also becomes to provide an insight/explanation of which are the differences for which a trace would be classified as belonging to one set or another. Sometimes, however, too many models might be available, thus nullifying the discovery effort. Some preference criteria would be helpful to guide the discovery process towards a model among the many. 
+
+In this work we extend our previous approach with the possibility, from the user viewpoint, of specifying preferences over trace activities and Declare templates. Such preferences are used to guide the discovery process, so that the output model will include, if possible, the constraints the user indicated. The user, through the preferences, instructs the discovery algorithm for looking for certain models: in other terms, some user knowledge on the desired outcome is exploited in the discovery process.
+
 \keywords{Process mining \and process discovery \and declarative process models \and deviant traces.}
 \end{abstract}
 %
