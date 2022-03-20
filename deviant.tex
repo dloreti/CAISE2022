@@ -25,7 +25,7 @@ Given the initial model $P$, a candidate solution for the discovery task is any 
 \end{definition}
 
 \declare templates can be organised into a hierarchy of \emph{subsumption} \cite{2017-DiCiccio} according to the logical implications derivable from their semantics. Consistently with this concept, we introduce the following definition of \emph{generality} relation between models.
-\begin{definition}{}
+\begin{definition}{}\label{def:subs}
 a model $M\subseteq D[A]$ is more general than $M'\subseteq D[A]$ (written as $M \succeq M'$) when for any $t\in A^*$, $t\models M' \Rightarrow t\models M$ , and strictly more general (written as $M \succ M'$) if $M$ is more general than $M'$ and there exists a $t'\in A^*$ s.t.\ $t'\not\models M'$ and $t'\models M$.
 \end{definition}
 
@@ -35,7 +35,7 @@ a model $M\subseteq D[A]$ is more general than $M'\subseteq D[A]$ (written as $M
 \begin{definition}{}
 Given a set $R$ of subsumption rules, a deductive closure operator is a function $cl_R: \mathcal{P}(D[A])\rightarrow\mathcal{P}(D[A])$ that associates any set $M \in D[A]$ with all the constraints that can be logically derived from $M$ by applying one or more deduction rules in $R$.
 \end{definition}
-For brevity in the rest of the paper, we will omit the set $R$ and we will simply write $cl(M)$. The complete set of employed rules is available\footnote{\url{https://zenodo.org/record/5158528}}.
+For brevity in the rest of the paper, we will omit the set $R$ and we will simply write $cl(M)$. The complete set of employed rules is available\footnote{\url{https://zenodo.org/record/5158528}}.\todo{usiamo lo stesso oggetto in Zenodo (nuova versione) o ne creiamo uno totalmente nuovo?}
 
 
 
@@ -56,7 +56,7 @@ The \textit{\sheriff} function is used to construct the set of all candidate con
 \begin{equation}
   \mathcal{Z}=\{M\in\mathcal{P}(\mathcal{C})\mid \forall t\in L^-~t\not\models M\cup P \text{ or } {\textit{\sheriff}}(t) = \emptyset \}
 \end{equation}
-according to a certain domain-independent\todo{ST: why domain-independent?} criterion. Due to the fact that not all the pairs of negative and positive set of traces can be perfectly separated by Declare~\cite{???}\todo{ST: reference to the paper}, there can be traces in $L^-$ for which the ${\textit{\sheriff}}$ is empty; we know that those cannot be excluded by any model that guarantees the acceptance of all the positive ones.
+according to a certain domain-independent \todo{ST: why domain-independent?}criterion. Due to the fact that not all the pairs of negative and positive set of traces can be perfectly separated by Declare~\cite{???}\todo{ST: reference to the paper}, there can be traces in $L^-$ for which the ${\textit{\sheriff}}$ is empty; we know that those cannot be excluded by any model that guarantees the acceptance of all the positive ones.
 
 The second step uses an optimisation strategy to identify the solutions; in~\cite{deviant-tkde}, two different criteria were taken into account: \emph{generality} (or conversely, \emph{specificity}), and \emph{simplicity}.
 If the user is interested in the most general model, then \nd employs the closure operator $cl$ to select the models $S \in \mathcal{Z}$ with the less restricting consequences; that is, using the order $S\preceq S'$ defined by the subset of the closures $cl(S\cup P)\subseteq cl(S'\cup P)$.
