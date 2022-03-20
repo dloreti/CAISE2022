@@ -14,7 +14,7 @@
 
 % \btext{@all? (in particolare chiara DF, FAbrizio, Marco e sergio per pensarla). Pensare alla valutazione. Ho recuperato i due dataset dei danesi (vedi git). Se volete si possono usare questi, pero' uno dei due log in realta' e' un insieme di 215 logs di cui loro hanno fatto la media. Forse io ne sceglierei due o tre (es Dreyers Foundation.xes + uno o due dei 215) e farei la valutazione su questi. Anche perche' piu' che valutazione e' far vedere cosa esce perche' nn mi e' chiaro come valutiamo n termini di metriche l'output.}
 
-In Section \ref{sec:example} we motivated some type of preferences by means of simple toy-like examples. The interested reader however might wonder about the usability and efficacy of our approach w.r.t. real-life cases. Having this in mind, we explored the appliability of our approach to two real-life event logs, namely DREYERS (492 positive traces and 208 negative ones) and CERV (55 positive traces and 102 negatives traces).
+In Section \ref{sec:example} we motivated some type of preferences by means of simple toy-like examples. The interested reader however might wonder about the usability and efficacy of our approach w.r.t. real-life cases. Having this in mind, we explored the applicability of our approach to two real-life event logs, namely DREYERS (492 positive traces and 208 negative ones) and CERV (55 positive traces and 102 negatives traces). In both cases we were able to find ten models satisfying the given preferences in a computation time between 1 and 3 seconds, using a normally-equipped laptop.
 
 
 
@@ -148,9 +148,7 @@ CERV is an event log that describes the process of cervical cancer screening in 
 %
 Hence, the traces have been labeled by a domain expert as belonging either to the positive or the negative set, depending on their compliance to the adopted protocol.
 
-To investigate 
-%All models returned by NegDis satisfy the whole positive log and violate all the negative traces. 
-In this example, we applied the preferences approach over the “precedence” and “succession” Declare templates. The two first resulting models for, respectively, precedence and succession are as follows:
+We investigated the log by eliciting a preference over the \textsf{precedence} and \textsf{succession} templates. The first resulting models for, respectively, precedence and succession are as follows:
 
 \begin{align*}
 \mathsf{M_1} = \{ & \\
@@ -167,107 +165,66 @@ In this example, we applied the preferences approach over the “precedence” a
 \} & 
 \end{align*}
 
-%M1: { alternateresponse(send positive pap test result, take a colposcopy examination), 
-%chainprecedence,invito(take a pap test examination), 
-%exclusivechoice(send pap test sample reject),
-%precedence(send colposcopy uncertain result, send biopsy sample) }
+In the first model, the \textsf{precedence} constraint implies that if a biopsy is executed, then the colposcopy examination would have provided an uncertain result before. Surprisingly, the second model is identical to the first one, with the exception of the constraint subjected to our preference. Interestingly, the \textsf{succession} is about the same activities involved by the \textsf{precedence} constraint in the first model. A further observation lies in the logical relation between \textsf{precedence} and \textsf{succession}: a trace that violates the former will always violate the latter (but not the opposite). It is up to the domain expert to prefer a stricter or a more general constraint, knowing that in this case such a choice would not affect the resulting model.
 
-%M2: { alternateresponse(send positive pap test result, take a colposcopy examination),
-%chainprecedence,invito(take a pap test examination),
-%exclusivechoice(send pap test sample, reject),
-%succession(send colposcopy uncertain result, send biopsy sample) }
+%%%For the models of the previous example we report the number of traces and paths violated by each constraint:
+%%%
+%%%Model M1:\\
+%%%
+%%%\begin{tabular}{|l|l|l|}
+%%%\hline
+%%%Constraint & Traces & Paths \\
+%%%\hline
+%%%alternateresponse(send positive pap test result, take a colposcopy examination) & 4 & 1\\
+%%%\hline
+%%%chainprecedence(invite, take a pap test examination) & 3 & 2\\
+%%%\hline
+%%%exclusivechoice(send pap test sample, reject) & 94 & 2 \\
+%%%\hline
+%%%precedence(send colposcopy uncertain result, send biopsy sample) & 4 & 3 \\
+%%%\hline
+%%%\end{tabular}
+%%%
+%%%Model M2:\\
+%%%
+%%%\begin{tabular}{|l|l|l|}
+%%%\hline
+%%%Constraint & Traces & Paths \\
+%%%\hline
+%%%alternateresponse(send positive pap test result, take a colposcopy examination) & 4 & 1\\
+%%%\hline
+%%%chainprecedence(invite, take a pap test examination) & 3 & 2 \\
+%%%\hline
+%%%exclusivechoice(send pap test sample, reject) & 94 & 2 \\
+%%%\hline
+%%%succession(send colposcopy uncertain result, send biopsy sample) & 4 & 3\\
+%%%\hline
+%%%\end{tabular}
 
-These are identical except for the constraints targeted by the preferences, that give a slightly different meaning to the models. In the first model, the precedence constraint implies that a biopsy is executed only if the colposcopy examination has an uncertain result, while the succession constraint in the second model also entails that the biopsy is always executed in those circumstances, giving an additional information.
-However, the second model would not exist without the preference expression, because “precedence” subsumes “succession” and the generality criterion would prune it.
-%la sussunzione e il criterio di generalità li assumo già spiegati, vero? 
+%%%A second example on this event log aims to demonstrate the important contribution of a negative preference, that is, a preference for the absence of a certain activity or template in the model. We applied this kind of preference on the “reject” action and we didn’t obtain any model satisfying the desired criterion. However, this result still offers a valuable information, as it guarantees that the “reject” activity is essential to distinguish between the positive and negative traces.
 
-For the models of the previous example we report the number of traces and paths violated by each constraint:
-
-Model M1:\\
-
-\begin{tabular}{|l|l|l|}
-\hline
-Constraint & Traces & Paths \\
-\hline
-alternateresponse(send positive pap test result, take a colposcopy examination) & 4 & 1\\
-\hline
-chainprecedence(invite, take a pap test examination) & 3 & 2\\
-\hline
-exclusivechoice(send pap test sample, reject) & 94 & 2 \\
-\hline
-precedence(send colposcopy uncertain result, send biopsy sample) & 4 & 3 \\
-\hline
-\end{tabular}
-
-Model M2:\\
-
-\begin{tabular}{|l|l|l|}
-\hline
-Constraint & Traces & Paths \\
-\hline
-alternateresponse(send positive pap test result, take a colposcopy examination) & 4 & 1\\
-\hline
-chainprecedence(invite, take a pap test examination) & 3 & 2 \\
-\hline
-exclusivechoice(send pap test sample, reject) & 94 & 2 \\
-\hline
-succession(send colposcopy uncertain result, send biopsy sample) & 4 & 3\\
-\hline
-\end{tabular}
-
-
-A second example on this event log aims to demonstrate the important contribution of a negative preference, that is, a preference for the absence of a certain activity or template in the model. We applied this kind of preference on the “reject” action and we didn’t obtain any model satisfying the desired criterion. However, this result still offers a valuable information, as it guarantees that the “reject” activity is essential to distinguish between the positive and negative traces.
-
-
-
-In order to evaluate the performances of our approach we also report, for each preference of the previous examples, the time needed to retrieve different numbers of models.\\
-\begin{tabular}{|c|c|c|c|c|c|}
-\cline{3-6}
-\multicolumn{2}{c}{} & \multicolumn{4}{|c|}{Required Time (s)}\\
-\hline
-\multicolumn{2}{|c}{Log} & \multicolumn{2}{|c}{DREYERS} & \multicolumn{2}{|c|}{CERV}\\
-\hline
-\multicolumn{2}{|c|}{Preference} & architect activity & lawyer activity & precedence template & succession template\\
-\hline
-\multirow{5}*{Number of models} & 1 & 0.185 & 0.178 & 0.273 & 0.281\\
-\cline{2-6}
-& 5 & 0.285 & 0.439 & 0.646 & 0.666\\
-\cline{2-6}
-& 10 & 0.849 & 1.635 & 1.106 & 3.545\\
-\cline{2-6}
-& 20 & 2.938 & 3.517 & 3.066 & 18.159\\
-\cline{2-6}
-& 50 & 14.167 & 22.485 & 76.766 & 130.256\\
-\hline
-\end{tabular}
-
-This table shows that the execution time depends both on the log and the specific preference.
+%%%In order to evaluate the performances of our approach we also report, for each preference of the previous examples, the time needed to retrieve different numbers of models.\\
+%%%\begin{tabular}{|c|c|c|c|c|c|}
+%%%\cline{3-6}
+%%%\multicolumn{2}{c}{} & \multicolumn{4}{|c|}{Required Time (s)}\\
+%%%\hline
+%%%\multicolumn{2}{|c}{Log} & \multicolumn{2}{|c}{DREYERS} & \multicolumn{2}{|c|}{CERV}\\
+%%%\hline
+%%%\multicolumn{2}{|c|}{Preference} & architect activity & lawyer activity & precedence template & succession template\\
+%%%\hline
+%%%\multirow{5}*{Number of models} & 1 & 0.185 & 0.178 & 0.273 & 0.281\\
+%%%\cline{2-6}
+%%%& 5 & 0.285 & 0.439 & 0.646 & 0.666\\
+%%%\cline{2-6}
+%%%& 10 & 0.849 & 1.635 & 1.106 & 3.545\\
+%%%\cline{2-6}
+%%%& 20 & 2.938 & 3.517 & 3.066 & 18.159\\
+%%%\cline{2-6}
+%%%& 50 & 14.167 & 22.485 & 76.766 & 130.256\\
+%%%\hline
+%%%\end{tabular}
+%%%
+%%%This table shows that the execution time depends both on the log and the specific preference.
 
 
-
-\subsection{VECCHIA: Evaluation on the CERV log}
-\label{subsec:cerv}
-
-CERV is an event log that describes the process of cervical cancer screening in an Italian screening center, and it has been used in a previous related work \cite{??,deviant-tkde}. The screening program is composed of five phases, organized sequentially: screening planning, invitation management, first level test with pap-test, second level test with colposcopy (only if the first test is positive), and eventually biopsy (if the second test gives a positive response). A number of subjects do not respect the planned protocol: for example, subjects do not show up at the first test, even if they chose the temporal slot themselves. Moreover, a number of subjects prefer to consult other physicians they trust more, if the second or the third test gave a positive response. All these cases provided a great variety of process instances that, from the viewpoint of the manager, are not compliant with the intended protocol, as it commonly happens in socio-technical systems.
-%
-Hence, the traces have been labeled by a domain expert as belonging either to the positive or the negative set, depending on their compliance to the adopted protocol.
-
-
-%All models returned by NegDis satisfy the whole positive log and violate all the negative traces. 
-In this example, we applied the preferences approach over the “precedence” and “succession” Declare templates. The two first resulting models for, respectively, precedence and succession are as follows:
-
-M1: {    alternateresponse(send positive pap test result, take a colposcopy examination), 
-chainprecedence,invito(take a pap test examination), 
-exclusivechoice(send pap test sample reject),
-precedence(send colposcopy uncertain result, send biopsy sample) }
-
-M2: {     alternateresponse(send positive pap test result, take a colposcopy examination),
-chainprecedence,invito(take a pap test examination),
-exclusivechoice(send pap test sample, reject),
-succession(send colposcopy uncertain result, send biopsy sample) }
-
-These are identical except for the constraints targeted by the preferences, that give a slightly different meaning to the models. In the first model, the precedence constraint implies that a biopsy is executed only if the colposcopy examination has an uncertain result, while the succession constraint in the second model also entails that the biopsy is always executed in those circumstances, giving an additional information.
-However, the second model would not exist without the preference expression, because “precedence” subsumes “succession” and the generality criterion would prune it [la sussunzione e il criterio di generalità li assumo già spiegati, vero?].  
-
-A second example on this event log aims to demonstrate the important contribution of a negative preference, that is, a preference for the absence of a certain activity or template in the model. We applied this kind of preference on the “reject” action and we didn’t obtain any model satisfying the desired criterion. However, this result still offers a valuable information, as it guarantees that the “reject” activity is essential to distinguish between the positive and negative traces.
 
