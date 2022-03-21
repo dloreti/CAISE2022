@@ -14,29 +14,29 @@
 
 % \btext{@all? (in particolare chiara DF, FAbrizio, Marco e sergio per pensarla). Pensare alla valutazione. Ho recuperato i due dataset dei danesi (vedi git). Se volete si possono usare questi, pero' uno dei due log in realta' e' un insieme di 215 logs di cui loro hanno fatto la media. Forse io ne sceglierei due o tre (es Dreyers Foundation.xes + uno o due dei 215) e farei la valutazione su questi. Anche perche' piu' che valutazione e' far vedere cosa esce perche' nn mi e' chiaro come valutiamo n termini di metriche l'output.}
 
-In Section \ref{sec:example} we motivated some type of preferences by means of simple toy-like examples. The interested reader however might wonder about the usability and efficacy of our approach w.r.t. real-life cases. Having this in mind, we explored the applicability of our approach to two real-life event logs, namely DREYERS (492 positive traces and 208 negative ones) and CERV (55 positive traces and 102 negatives traces). In both cases we were able to find ten models satisfying the given preferences in a computation time between 1 and 3 seconds, using a normally-equipped laptop.
+In Section \ref{sec:example} we introduced the preference types through simple toy-like examples. The interested reader however might wonder about the usability and efficacy of our approach w.r.t. real-life cases. We explored the applicability of our approach to two real-life event logs, namely DREYERS (492 positive traces and 208 negative ones) and CERV (55 positive traces and 102 negatives traces). In both cases we were able to find ten models satisfying the given preferences in a computation time between 1 and 3 seconds, using a normally-equipped laptop.
 
 
 
 \subsection{The DREYERS log}
 \label{subsec:dreyers}
 
-The DREYERS log describes the Dreyer Foundation’s processes, regarding their support to legal and architectural projects and applications, and it has been used in related works \cite{DBLP:conf/ssci/DeboisS15,DBLP:conf/bpm/SlaatsDB21}. In the Dreyers process, each application that aims to obtain the Foundation's support goes through a pre-screen that can lead to an initial rejection. The remaining applications undergo a review, in which at least one of the reviewers must be a lawyer or an architect, depending on the type of application. The review phase is followed by a board meeting, where the Foundation decides which applications to support: in case of success the application is granted a payout.
+The DREYERS log describes the Dreyer Foundation’s processes, regarding their support to legal and architectural projects, and it has been used in \cite{DBLP:conf/ssci/DeboisS15,DBLP:conf/bpm/SlaatsDB21}. Each application that aims to the Foundation's support goes through a pre-screen that can lead to an initial rejection. The remaining applications undergo a review, in which at least one of the reviewers must be a lawyer or an architect, depending on the application type. The review phase is followed by a board meeting, where applications to be supported are selected: in case, the application is funded.
 
-As mentioned in \cite{DBLP:conf/bpm/SlaatsDB21}, two sets of log traces are available: process instances that execute properly have been labeled as the positive example set, while log traces whose process instances do not adhere to the proper execution path belong to the negative example set. The labeling of the traces was already available in the log, and we are not aware of the criteria used in the labeling.
+Two sets of log traces are available: process instances that execute properly have been labeled as the positive example set, while process instances that do not adhere to the proper execution path belong to the negative example set. The labeling was already available, and we are not aware of the adopted criteria.
 
-Hence, we plaid a sort of ``investigation game'', and to explore the hypothesis that indeed the type of application (architect-type or lawyer type) might affect the process outcome. More generally, one might be interested in knowing if there are any differences in models that explicitly mention one of the two possible types of application.
+Hence, we plaid a sort of ``investigation game'', and explored the hypothesis that the type of application (architect- or lawyer- type) might affect the process outcome. More generally, one might be interested in knowing if there are any differences in models that explicitly mention one of the two possible types of application.
 %, so as to understand the possible variations in the process, depending on the legal or architectural context
-To distinguish (traces referring to) the two types of applications, we resorted to focus on two activities peculiar of each application type, namely the “Lawyer Review” and the “Architect Review” activity.
+%%%To distinguish (traces referring to) the two types of applications, we resorted to focus on two activities peculiar of each application type, namely the “Lawyer Review” and the “Architect Review” activity.
+To this end, we specified a preference for models containing the activity \textsf{Lawyer Review}, and then a preference for the \textsf{Architect Review} activity.
 
 In both cases several models satisfying the preferences were found. However, the two sets of models are identical (except for the architect/lawyer activity), showing that the process is probably independent of the application domain, as expected from the process description.
-We report an example of a model obtained when specifying a preference for the “Architect Review” activity:
+We report an example of a model obtained when specifying a preference for the \textsf{Architect Review} activity:
 
 %l'ordine di restituzione è molto diverso e i primi restituiti sono quelli con l'azione in danese, quindi ne ho scelti due volutamente diversi... è meglio metterli uguali con solo l'azione architect/lawyer diversa?
 
 \begin{align*}
-\mathsf{M_1} = \{ & \\
-& \mathsf{ alternateresponse(Undo\ payment, First\ payout)} \\
+\mathsf{M_1} = \{ \ & \mathsf{ alternateresponse(Undo\ payment, First\ payout)} \\
 & \mathsf{ chainprecedence(Fill\ out\ application, Initial\ Rejection)} \\
 & \mathsf{ choice(Round\ ends, Change\ phase\ to\ Abort)} \\
 & \mathsf{ notchainsuccession(Receive\ final\ report, First\ payout)} \\
@@ -44,17 +44,7 @@ We report an example of a model obtained when specifying a preference for the �
 & \mathsf{ notchainsuccession(Change\ phase\ to\ Preparation, Execute\ Pre\ decision)} \\
 & \mathsf{ notchainsuccession(Set\ to\ Pre\ approved, Round\ Ends)} \\
 & \mathsf{ notsuccession(Architect\ Review, Approval\ on\ to\ the\ board)} \\
-\} & % \\
-%%%\mathsf{M_2} = \{ & \\
-%%%& \mathsf{ absence2(Initial\ rejection)} \\
-%%%& \mathsf{ choice(Round\ Ends, Applicant\ informed)} \\
-%%%& \mathsf{ notchainsuccession(Set\ to\ Pre\ approved, Round\ Ends)} \\
-%%%& \mathsf{ notchainsuccession(Receive\ final\ report, First\ payout)} \\
-%%%& \mathsf{ notchainsuccession(Change\ phase\ to\ Preparation, Approve\ application)} \\
-%%%& \mathsf{ notchainsuccession(Change\ phase\ to\ Preparation, Execute\ Pre\ decision)} \\
-%%%& \mathsf{ notsuccession(Lawyer\ Review, Change\ phase\ to\ review)} \\
-%%%& \mathsf{ response(Undo\ payment, First\ payout) } \\
-%%%\} & 
+\} &
 \end{align*}
 
 %%%The DREYERS log consists of 492 positive traces and 208 negative ones, 130 positive paths and 29 negative ones. NegDis is able to return models that satisfy the whole positive log and violate all but three negative traces (two paths). 
@@ -94,14 +84,13 @@ Total & 208 & 30\\
 \end{center}
 \caption{Traces ruled out by model $\mathsf{M_1}$.}
 \end{table}
+%
+Notably, the model is able to discriminate between positive and negative examples except for three negative traces (two paths), that cannot be ruled out without discarding also some positive examples.
 
-Notably, the obtained model is able to discriminate between positive and negative examples except for three negative traces (two paths), that cannot be ruled out without discarding also some positive examples.
-
-We continued our investigation by focusing on the very beginning of the process, and on the specific activity \textsf{Initial Rejection}. Our approach provided different many models, among them the following one:
+We continued our investigation by focusing on the very beginning of the process, and on the specific activity \textsf{Initial Rejection}. Many models were found, among them the following one:
 
 \begin{align*}
-\mathsf{M_2} = \{ & \\
-& \mathsf{ absence2(Initial\ rejection)} \\
+\mathsf{M_2} = \{ \ &  \mathsf{ absence2(Initial\ rejection)} \\
 & \mathsf{ choice(Round\ Ends, Applicant\ informed)} \\
 & \mathsf{ notchainsuccession(Set\ to\ Pre\ approved, Round\ Ends)} \\
 & \mathsf{ notchainsuccession(Receive\ final\ report, First\ payout)} \\
@@ -111,7 +100,7 @@ We continued our investigation by focusing on the very beginning of the process,
 & \mathsf{ response(Undo\ payment, First\ payout) } \\
 \} & 
 \end{align*}
-%
+
 Model $\mathsf{M_2}$ highlights the fact that some negative traces can be distinguishable from the positive ones because of the repetition of the \textsf{Initial Rejection}: indeed, some traces reported the execution of the activity twice, thus indicating an attention point for the process manager.
 
 %%%Model M2:\\
@@ -153,17 +142,12 @@ Hence, the traces have been labeled by a domain expert as belonging either to th
 We investigated the log by eliciting a preference over the \textsf{precedence} and \textsf{succession} templates. The first resulting models, respectively, are as follows:
 
 \begin{align*}
-\mathsf{M_1} = \{ & \\
-& \mathsf{ alternateresponse(send\ positive\ pap\ test\ result, take\ a\ colposcopy\ examination)} \\
+\mathsf{M_1} = \{ \ &  \mathsf{ alternateresponse(send\ positive\ pap\ test\ result, take\ a\ colposcopy\ examination)} \\
 & \mathsf{ chainprecedence(invite, take\ a\ pap\ test\ examination)} \\
 & \mathsf{ exclusivechoice(send\ pap\ test\ sample, reject)} \\
 & \mathsf{precedence(send\ colposcopy\ uncertain\ result, send\ biopsy\ sample)} \\
-\} & 
-\end{align*}
-
-\begin{align*}
-\mathsf{M_2} = \{ & \\
-& \mathsf{ alternateresponse(send\ positive\ pap\ test\ result, take\ a\ colposcopy\ examination)} \\
+\} & \\
+\mathsf{M_2} = \{ \ &  \mathsf{ alternateresponse(send\ positive\ pap\ test\ result, take\ a\ colposcopy\ examination)} \\
 & \mathsf{ chainprecedence(invite, take\ a\ pap\ test\ examination)} \\
 & \mathsf{ exclusivechoice(send\ pap\ test\ sample, reject)} \\
 & \mathsf{succession(send\ colposcopy\ uncertain\ result, send\ biopsy\ sample)} \\
