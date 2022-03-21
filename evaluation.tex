@@ -25,7 +25,9 @@ The DREYERS log describes the Dreyer Foundation’s processes, regarding their s
 
 As mentioned in \cite{DBLP:conf/bpm/SlaatsDB21}, two sets of log traces are available: process instances that execute properly have been labeled as the positive example set, while log traces whose process instances do not adhere to the proper execution path belong to the negative example set. The labeling of the traces was already available in the log, and we are not aware of the criteria used in the labeling.
 
-Hence, we decided to play a sort of ``investigation game'', and to explore the hypothesis that indeed the type of application (architect-type or lawyer type) might affect the process outcome. More generally, one might be interested in knowing if there are any differences in models that explicitly mention one of the two possible types of application, so as to understand the possible variations in the process, depending on the legal or architectural context. To distinguish (traces referring to) the two types of applications, we resorted to focus on two activities that are peculiar of each application type, namely the “Lawyer Review” activity and the “Architect Review” activity.
+Hence, we plaid a sort of ``investigation game'', and to explore the hypothesis that indeed the type of application (architect-type or lawyer type) might affect the process outcome. More generally, one might be interested in knowing if there are any differences in models that explicitly mention one of the two possible types of application.
+%, so as to understand the possible variations in the process, depending on the legal or architectural context
+To distinguish (traces referring to) the two types of applications, we resorted to focus on two activities peculiar of each application type, namely the “Lawyer Review” and the “Architect Review” activity.
 
 In both cases several models satisfying the preferences were found. However, the two sets of models are identical (except for the architect/lawyer activity), showing that the process is probably independent of the application domain, as expected from the process description.
 We report an example of a model obtained when specifying a preference for the “Architect Review” activity:
@@ -144,11 +146,11 @@ Model $\mathsf{M_2}$ highlights the fact that some negative traces can be distin
 \subsection{Evaluation on the CERV log}
 \label{subsec:cerv}
 
-CERV is an event log that describes the process of cervical cancer screening in an Italian screening center, and it has been used in previous related works \cite{2007b-Lamma,deviant-tkde}. The screening program is composed of five phases, organized sequentially: screening planning, invitation management, first level test with pap-test, second level test with colposcopy (only if the first test is positive), and eventually biopsy (if the second test gives a positive response). A number of subjects do not respect the planned protocol: for example, subjects do not show up at the first test, even if they chose the temporal slot themselves. Moreover, a number of subjects prefer to consult other physicians they trust more, if the second or the third test gave a positive response. All these cases provided a great variety of process instances that, from the viewpoint of the manager, are not compliant with the intended protocol, as it commonly happens in socio-technical systems.
+CERV is an event log that describes the process of cervical cancer screening in an Italian screening center, and it has been used in previous related works \cite{2007b-Lamma,deviant-tkde}. The screening program is composed of five phases, organized sequentially: screening planning, invitation management, first level test with pap-test, second level test with colposcopy (only if the first test is positive), and eventually biopsy (if the second test gives a positive response). Several subjects do not respect the planned protocol: e.g., subjects do not show up at the first test, even if they chose the temporal slot themselves. Moreover, a number of subjects prefer to consult physicians they trust more, in case of a positive response. As it commonly happens in socio-technical systems, a great variety of process instances appears in the log, nott all the instances being compliant with the protocol.
 %
 Hence, the traces have been labeled by a domain expert as belonging either to the positive or the negative set, depending on their compliance to the adopted protocol.
 
-We investigated the log by eliciting a preference over the \textsf{precedence} and \textsf{succession} templates. The first resulting models for, respectively, precedence and succession are as follows:
+We investigated the log by eliciting a preference over the \textsf{precedence} and \textsf{succession} templates. The first resulting models, respectively, are as follows:
 
 \begin{align*}
 \mathsf{M_1} = \{ & \\
@@ -156,7 +158,10 @@ We investigated the log by eliciting a preference over the \textsf{precedence} a
 & \mathsf{ chainprecedence(invite, take\ a\ pap\ test\ examination)} \\
 & \mathsf{ exclusivechoice(send\ pap\ test\ sample, reject)} \\
 & \mathsf{precedence(send\ colposcopy\ uncertain\ result, send\ biopsy\ sample)} \\
-\} & \\
+\} & 
+\end{align*}
+
+\begin{align*}
 \mathsf{M_2} = \{ & \\
 & \mathsf{ alternateresponse(send\ positive\ pap\ test\ result, take\ a\ colposcopy\ examination)} \\
 & \mathsf{ chainprecedence(invite, take\ a\ pap\ test\ examination)} \\
@@ -165,7 +170,8 @@ We investigated the log by eliciting a preference over the \textsf{precedence} a
 \} & 
 \end{align*}
 
-In the first model, the \textsf{precedence} constraint implies that if a biopsy is executed, then the colposcopy examination would have provided an uncertain result before. Surprisingly, the second model is identical to the first one, with the exception of the constraint subjected to our preference. Interestingly, the \textsf{succession} is about the same activities involved by the \textsf{precedence} constraint in the first model. A further observation lies in the logical relation between \textsf{precedence} and \textsf{succession}: a trace that violates the former will always violate the latter (but not the opposite). It is up to the domain expert to prefer a stricter or a more general constraint, knowing that in this case such a choice would not affect the resulting model.
+In the first model, the \textsf{precedence} constraint implies that if a biopsy is executed, then the colposcopy examination would have provided an uncertain result before. Surprisingly, the second model is identical to the first one, except for the constraint subjected to our preference. Interestingly, the \textsf{succession} is about the same activities involved by the \textsf{precedence} constraint in the first model. A further observation lies in the logical relation between \textsf{precedence} and \textsf{succession}: a trace that violates the former will always violate the latter (but not the opposite). It is up to the domain expert to prefer a stricter or a more general constraint.
+%, knowing that in this case such a choice would not affect the resulting model.
 
 %%%For the models of the previous example we report the number of traces and paths violated by each constraint:
 %%%
