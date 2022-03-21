@@ -43,8 +43,7 @@ We report an example of a model obtained when specifying a preference for the \t
 & \mathsf{ notchainsuccession(Change\ phase\ to\ Preparation, Approve\ application)} \\
 & \mathsf{ notchainsuccession(Change\ phase\ to\ Preparation, Execute\ Pre\ decision)} \\
 & \mathsf{ notchainsuccession(Set\ to\ Pre\ approved, Round\ Ends)} \\
-& \mathsf{ notsuccession(Architect\ Review, Approval\ on\ to\ the\ board)} \\
-\} &
+& \mathsf{ notsuccession(Architect\ Review, Approval\ on\ to\ the\ board)} \ \} 
 \end{align*}
 
 %%%The DREYERS log consists of 492 positive traces and 208 negative ones, 130 positive paths and 29 negative ones. NegDis is able to return models that satisfy the whole positive log and violate all but three negative traces (two paths). 
@@ -97,8 +96,7 @@ We continued our investigation by focusing on the very beginning of the process,
 & \mathsf{ notchainsuccession(Change\ phase\ to\ Preparation, Approve\ application)} \\
 & \mathsf{ notchainsuccession(Change\ phase\ to\ Preparation, Execute\ Pre\ decision)} \\
 & \mathsf{ notsuccession(Lawyer\ Review, Change\ phase\ to\ review)} \\
-& \mathsf{ response(Undo\ payment, First\ payout) } \\
-\} & 
+& \mathsf{ response(Undo\ payment, First\ payout) } \ \} 
 \end{align*}
 
 Model $\mathsf{M_2}$ highlights the fact that some negative traces can be distinguishable from the positive ones because of the repetition of the \textsf{Initial Rejection}: indeed, some traces reported the execution of the activity twice, thus indicating an attention point for the process manager.
@@ -145,13 +143,11 @@ We investigated the log by eliciting a preference over the \textsf{precedence} a
 \mathsf{M_1} = \{ \ &  \mathsf{ alternateresponse(send\ positive\ pap\ test\ result, take\ a\ colposcopy\ examination)} \\
 & \mathsf{ chainprecedence(invite, take\ a\ pap\ test\ examination)} \\
 & \mathsf{ exclusivechoice(send\ pap\ test\ sample, reject)} \\
-& \mathsf{precedence(send\ colposcopy\ uncertain\ result, send\ biopsy\ sample)} \\
-\} & \\
+& \mathsf{precedence(send\ colposcopy\ uncertain\ result, send\ biopsy\ sample)} \ \}  \\
 \mathsf{M_2} = \{ \ &  \mathsf{ alternateresponse(send\ positive\ pap\ test\ result, take\ a\ colposcopy\ examination)} \\
 & \mathsf{ chainprecedence(invite, take\ a\ pap\ test\ examination)} \\
 & \mathsf{ exclusivechoice(send\ pap\ test\ sample, reject)} \\
-& \mathsf{succession(send\ colposcopy\ uncertain\ result, send\ biopsy\ sample)} \\
-\} & 
+& \mathsf{succession(send\ colposcopy\ uncertain\ result, send\ biopsy\ sample)} \ \}  
 \end{align*}
 
 In the first model, the \textsf{precedence} constraint implies that if a biopsy is executed, then the colposcopy examination would have provided an uncertain result before. Surprisingly, the second model is identical to the first one, except for the constraint subjected to our preference. Interestingly, the \textsf{succession} is about the same activities involved by the \textsf{precedence} constraint in the first model. A further observation lies in the logical relation between \textsf{precedence} and \textsf{succession}: a trace that violates the former will always violate the latter (but not the opposite). It is up to the domain expert to prefer a stricter or a more general constraint.
