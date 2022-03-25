@@ -7,29 +7,34 @@
 
 
 
-When process models are loosely-structured, procedural discovery could produce spaghetti-models~\cite{2012-Maggi,deviant-tkde}. In that case, declarative approaches are more suitable for the purpose because they allow to briefly list all the required or prohibited behaviours in the business process. 
+When processes are loosely-structured, procedural discovery could produce spaghetti-like models~\cite{2012-Maggi,deviant-tkde}. In that case, declarative approaches are more suitable for the purpose since they briefly list all the required or prohibited behaviors without explicitly specifying all possible process paths. 
 
-Over the last decade, several works focused on declarative process discovery~\cite{2011-Maggi,2012-Maggi,2012-Schunselaar,2017-DiCiccio,2015-DiCiccio}.
-In~\cite{2011-Maggi}, Maggi et al. propose to build a set of all possible candidate Declare constraints considering all the activities that appear in the log, translate the constraints in \ac{LTL}, and check them against the whole log until certain levels of recall and specificity are reached. 
-Techniques to refine the business model excluding vacuously satisfied constraints are the focus of the subsequent works by Schunselaar et al. \cite{2012-Schunselaar} and Maggi et al. \cite{2012-Maggi}, whereas Di Ciccio et al. \cite{2017-DiCiccio} propose an approach to filter out frequent redundancies and inconsistencies. 
-All the cited declarative approaches do not deal with negative examples. Nonetheless, interestingly from our point of view, in \cite{2015-DiCiccio}  the authors define among the metrics to guide the declarative discovery approach, besides support and confidence, also the interest factor for each constraint w.r.t. the log, and the possibility to include in the search space constraints on prohibited behaviours.
+Over the last decade, several works focused on declarative process discovery~\cite{2018a-Maggi,DBLP:journals/is/CiccioMM16,2012-Schunselaar,2017-DiCiccio}.
+In~\cite{2018a-Maggi,DBLP:journals/is/CiccioMM16}, the authors propose to build the set of all possible candidate \declare constraints considering all the activities that appear in the log, and check them against the whole log until certain levels of recall and specificity are reached. 
+Techniques to refine the business model excluding vacuously satisfied constraints are the focus of the subsequent works by Schunselaar et al. \cite{2012-Schunselaar}, whereas Di Ciccio et al. \cite{2017-DiCiccio} propose an approach to filter out frequent redundancies and inconsistencies. 
+All the cited declarative approaches do not deal with negative examples. Nonetheless, interestingly from our point of view, in \cite{DBLP:conf/caise/MaggiBA13},  the authors present an approach to specify ``crisp'' preferences that filter out constraints (discovered from positive examples only) that are not in line with some user knowledge. Differently from this approach, our approach allows the user to use preferences to ``prioritize'' the discovered models without necessarily filter out the ones that do not agree with the specified preferences. 
 
-Negative examples are instead actively employed in the declarative discovery approaches \cite{2007-Lamma,2009-Chesani,2010-Bellodi,2016-Bellodi,DBLP:conf/bpm/SlaatsDB21}, %, which are all based on the functioning principles of \ac{ICL} algorithm \cite{1995-DaRaedt} and thus intrinsically dependent to the availability of both negative and positive examples. 
-eventually relaying for the evaluation on the output of synthetical log generators able to produce both positive and negative process cases \cite{2009-Goedertier,2014-Stocker,2010-Hee,2019-Chesani,2017-Chesani,2020-Loreti}.
+
+Negative examples are instead actively employed in the declarative discovery approaches \cite{2007-Lamma,2007b-Lamma,2010-Bellodi,2016-Bellodi,2009-Chesani,deviant-tkde,DBLP:conf/bpm/SlaatsDB21}. 
 The technique by Lamma et al. \cite{2007-Lamma,2007b-Lamma} learns integrity constraints expressed as logical formulas, and translates them into the equivalent DecSerFlow constructs \cite{2006-Aalst}. 
-Bellodi et al. \cite{2010-Bellodi}, \cite{2016-Bellodi} employ the same approach and automatically convert the results into Markov Logic formulas---statistical relational learning is used to determine the weight of each formula.
-Analogously, Chesani et al. \cite{2009-Chesani} propose to learn a set of SCIFF rules \cite{2008-Alberti} and translate them into ConDec constraints \cite{2006-Pesic}. The approach that we adopt in this work instead, is the one presented in \cite{deviant-tkde}, which directly learns Declare constraints without any intermediate language.
-Besides, this adopted approach is grounded on a SAT-based solver analogously to the works \cite{2018-Neider,2019-Camacho,2019-Riener}, where simple \ac{LTL} formulas are generated analysing a set of positive and negative examples.
+Bellodi et al. \cite{2010-Bellodi,2016-Bellodi} employ the same approach and automatically convert the results into Markov Logic formulas---statistical relational learning is used to determine the weight of each formula.
+Analogously, Chesani et al. \cite{2009-Chesani} propose to learn a set of SCIFF rules \cite{2008-Alberti} and translate them into ConDec constraints \cite{2006-Pesic}. The approach that we adopt in this work instead, is the one presented in \cite{deviant-tkde}, which directly learns \declare constraints without any intermediate language.
+%Besides, this adopted approach
+\btext{This approach} is grounded on a SAT-based solver analogously to the works in~\cite{2018-Neider,2019-Camacho,2019-Riener}, where simple \ac{LTL} formulas are generated to analyze sets of positive and negative examples.
 %\cite{2018-Neider} resort to decision trees to improve the performance while dealing with large input logs; \cite{2019-Camacho} exploit \ac{AFA} to learn \ac{LTL} formulas consistent with positive and negative example sets; and \cite{2019-Riener} propose to split the search space into smaller subproblems using partial \acp{DAG}.
+\btext{Particularly relevant for our work is the contribution by Slaats et al. \cite{DBLP:conf/bpm/SlaatsDB21}, which proposes a binary classification procedure for process discovery  evaluated on a set of real-life logs with negative examples from industry.} 
 
-Our notion of negative example is similar to the definitions of syntactical and semantic noise of \cite{2009-Gunther}, because our approach is able to extract both the syntactic information that characterise the positive examples w.r.t. negative, and the relevant semantic difference between traces that has been partially or totally modified at a certain point in time.
+
+Our notion of negative example is similar to the definitions of syntactical and semantic noise of \cite{2009-Gunther} since our approach is able to extract both the syntactic information that characterizes the positive examples w.r.t. negative \btext{ones}, and the relevant semantic difference between traces that have been partially or totally modified at a certain point in time.
 %As a minor point, we also might notice that these works provides in output LTL formulas, while we opt for Declare formulas with LTL$_f$ semantics.
 %
-In this sense, our work is also closely related to deviance mining approaches \cite{2016-Nguyen}, i.e., techniques to extract the relevant details characterising those traces showing a sequence of activities that deviates from the expected behaviour. Wheres some deviance mining approaches \cite{2014-Suriadi,2014-Armas} focus on the differences between models discovered from deviant and non-deviant traces, others \cite{2013-Suriadi,2015-Partington,2013-Bose,2007-Lo,2016-Bernardi} intend it as a sort of sequence classification: to discover patterns of activities that distinguish different types of traces.
+In this sense, our work is also closely related to deviance mining approaches \cite{2016-Nguyen,DBLP:journals/kbs/TaymouriRDM21}, i.e., techniques to extract the relevant details characterizing those traces %showing a sequence of activities
+that deviate from the expected behavior. Whereas some deviance mining approaches \cite{2014-Suriadi,2014-Armas} focus on the differences between models discovered from deviant and non-deviant traces, others~\cite{2013-Suriadi,2015-Partington,2013-Bose,2007-Lo,DBLP:journals/corr/abs-2111-12454} intend \btext{deviance mining} %it
+ as a sort of sequence classification \btext{for the discovery of activity patterns discriminating between different sets of traces. }%: to discover patterns of activities that distinguish different types of traces.
 
 %inserting user preferences in the discovery of declarative process models  as a two-class supervised task. In particular we start from a recent work \cite{deviant-arxiv} that introduces the \nd binary miner for the \declare \cite{2009-Aalst} modeling language. We show how to extend it with preference mechanisms able to increase the role of the users in obtaining their preferred models
- 
-Particularly relevant for our work was the contribution by Slaats et al. \cite{DBLP:conf/bpm/SlaatsDB21}, which proposes a binary classification procedure for process discovery evaluated on a precious set of real-life logs with negative examples from industry.\tododl{vogliamo dire altro di Slaats?}
+
+%Particularly relevant for our work was the contribution by Slaats et al. \cite{DBLP:conf/bpm/SlaatsDB21}, which proposes a binary classification procedure for process discovery evaluated on a precious set of real-life logs with negative examples from industry.%\tododl{vogliamo dire altro di Slaats?}
 %https://link.springer.com/chapter/10.1007%2F978-3-030-21290-2_37
 %
 %https://link.springer.com/chapter/10.1007%2F978-3-642-32885-5_6

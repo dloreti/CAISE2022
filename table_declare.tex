@@ -1,0 +1,70 @@
+%\renewcommand{\arraystretch}{1.2}
+\begin{table} [h]
+\centering
+\scalebox{0.8}{%
+\begin{tabular}{ l p{5cm}}
+\toprule
+\textbf{Template} & \textbf{Explanation} \\  
+\midrule
+%\multicolumn{2}{l}{Existence templates}\\
+%\midrule
+$\Exi{n}{\paramx}$ &
+$\paramx$ occurs at least $n$ times 
+\\
+$\Abse{m+1}{\paramx}$ & 
+$\paramx$ occurs at most $m$ times 
+\\
+%$\Ini{\paramx}$ &
+%{\paramx} is the \emph{first} to occur 
+%\\
+%$\End{\paramx}$ &
+%{\paramx} is the \emph{last} to occur
+%\\
+\midrule
+%\multicolumn{2}{l}{Relation templates}\\
+%\midrule
+$\ResEx{\paramx}{\paramy}$ &
+If {\paramx} occurs, then {\paramy} occurs \\
+$\Resp{\paramx}{\paramy}$ &
+If {\paramx} occurs, then {\paramy} occurs after {\paramx} 
+\\
+$\AltResp{\paramx}{\paramy}$ &
+Each time {\paramx} occurs, then {\paramy} occurs afterwards, before {\paramx} recurs
+\\
+%$\ChaResp{\paramx}{\paramy}$ &
+%Each time {\paramx} occurs, then {\paramy} occurs immediately after \\
+$\Prec{\paramx}{\paramy}$ &
+{\paramy} occurs only if preceded by {\paramx} \\
+%$\AltPrec{\paramx}{\paramy}$ &
+%Each time {\paramy} occurs, it is preceded by {\paramx} and no other {\paramy} can recur in between \\
+$\ChaPrec{\paramx}{\paramy}$ &
+Each time {\paramy} occurs, then {\paramx} occurs immediately before \\
+\midrule
+%\multicolumn{2}{l}{Mutual relation templates}\\
+%\midrule
+$\CoExi{\paramx}{\paramy}$ &
+If {\paramy} occurs, then {\paramx} occurs, and vice versa \\
+%$\Succ{\paramx}{\paramy}$ &
+%{\paramx} occurs if and only if {\paramy} occurs after {\paramx} \\
+%$\AltSucc{\paramx}{\paramy}$ &
+%{\paramx} and {\paramy} occur if and only if the latter follows the former, and they alternate each other \\
+%$\ChaSucc{\paramx}{\paramy}$ &
+%{\paramx} and {\paramy} occur if and only if the latter immediately follows the former \\
+%\midrule
+%\multicolumn{2}{l}{Negative relation templates}\\
+%\midrule
+%$\NotCoExi{\paramx}{\paramy}$ &
+%{\paramx} and {\paramy} never occur together \\
+$\NotSucc{\paramx}{\paramy}$ &
+{\paramx} never occurs before {\paramy} \\
+$\NotChaSucc{\paramx}{\paramy}$ &
+{\paramx} and {\paramy} occur if and only if the latter does not immediately follow the former
+\\
+\bottomrule
+\end{tabular}
+}
+\vspace{0.3cm}
+\caption{\declare templates}
+\vspace{-0.8cm}
+\label{table:declare}
+\end{table} 

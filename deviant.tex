@@ -3,68 +3,72 @@
 \section{Discovering Business Processes from Positive \& Negative Traces}
 \label{sec:deviant}
 
-\todocdf{Forse possiamo aggiornare la notazione e usare P per le tracce positive, N per le tracce negative, M per il modello discovered}
+%\todocdf{Forse possiamo aggiornare la notazione e usare P per le tracce positive, N per le tracce negative, M per il modello discovered o viceversa}
 
 %\btext{CHiara G + Bolognesi: fare un sunto di deviant}
 %Vorremo riprendere la parte tecnica del lavoro under revision, senza chiamarlo ``background'' perché non è mica ancora pubblicato e assodato...
 
 
-Our approach is based on \btext{the} \nd binary miner~\cite{deviant-tkde}, which, given two input sets of positive and negative examples, aims to extract a model accepting all positive cases and rejecting all \btext{negative ones.} %negatives. 
+Our approach is based on \btext{the} \nd binary miner~\cite{deviant-tkde}, which, given two input sets of positive and negative examples, aims at extracting a model accepting all positive traces and rejecting all \btext{negative ones.} %negatives. 
 %This operation includes an abstraction step, so that the resulting model would allow to classify also unknown traces, not reported in the input log. Depending on the choices made during the discovery process, the learned model can``shape'' the set of unknown traces in different ways.
-In this work, we try to enrich the binary miner with the possibility to express domain-dependent preferences on the discovered model. Therefore, we need to report here some definitions and explanations from~\cite{deviant-tkde} that are useful to introduce %also
+In this work, we enrich \nd with the possibility to express domain-dependent preferences on the discovered models. Therefore, we need to report here some definitions and explanations from~\cite{deviant-tkde} that are useful to understand %also
 our approach.
 
-\nd start\btext{s} from a certain \emph{language bias}: Given a set of \declare templates $D$ and a set of activities $A$, we identify with $D[A]$ the set of all possible grounding\btext{s} of templates in $D$ w.r.t. $A$, i.e. all the constraints that can be built using the given activities.
+\nd start\btext{s} from a certain \emph{language bias}: given a set of \declare templates $D$ and a set of activities $A$, we indicate with $D[A]$ the set of all possible grounding\btext{s} of templates in $D$ w.r.t. $A$, i.e., all the constraints that can be built using activities in $A$.
 
-We respectively denote with $L^+$ and $L^-$ the sets of positive and negative traces %, reported 
-in the input event log. \nd starts by considering a --- possibly empty --- initial model $P$, that is a set of \declare constraints known to characterise the examples in $L^+$. The goal of \nd is to refine $P$ taking into account both the positive and the negative traces.
+We respectively denote with $L^+$ and $L^-$ the sets of positive and negative examples %, reported 
+in the input event log. \nd starts by considering a --- possibly empty --- initial model $P$, that is a set of \declare constraints known to characterize the examples in $L^+$. The goal of \nd is to refine $P$ taking into account both the positive and the negative examples.
 
 \begin{definition}{}\label{def:cand}
 Given the initial model $P$, a candidate solution for the discovery task is any set of constraints $S\subseteq D[A]$ s.t.
 \begin{enumerate*} [label=\textit{(\roman*)}]
   \item $P\subseteq S$;
   \item $\forall t\in L^+$ we have $t\models S$;
-  \item maximise the set $\{t\in L^-\mid t\not\models S\}$.
+  \item S maximizes the set $\{t\in L^-\mid t\not\models S\}$.
 \end{enumerate*}
 \end{definition}
 
-\declare templates can be organised into a hierarchy of \emph{subsumption} \cite{2017-DiCiccio} according to the logical implications derivable from their semantics. Consistently with this concept, we introduce the following definition of \emph{generality} relation between models.
+\declare templates can be organized into a hierarchy of \emph{subsumption} \cite{2017-DiCiccio} according to the logical implications derivable from their semantics. Consistently with this concept, we introduce the following definition of \emph{generality} relation between models.
 \begin{definition}{}\label{def:subs}
-a model $M\subseteq D[A]$ is more general than $M'\subseteq D[A]$ (written as $M \succeq M'$) when for any $t\in A^*$, $t\models M' \Rightarrow t\models M$ , and strictly more general (written as $M \succ M'$) if $M$ is more general than $M'$ and there exists a $t'\in A^*$ s.t.\ $t'\not\models M'$ and $t'\models M$.
+A model $M\subseteq D[A]$ is more general than $M'\subseteq D[A]$ (written as $M \succeq M'$) when for any $t\in A^*$, $t\models M' \Rightarrow t\models M$ , and strictly more general (written as $M \succ M'$) if $M$ is more general than $M'$ and there exists $t'\in A^*$ s.t.\ $t'\not\models M'$ and $t'\models M$.
 \end{definition}
 
-\nd integrates the \emph{subsumption} rules introduced in \cite{2017-DiCiccio}, into a function, namely the \emph{deductive closure operator}.
+\nd integrates the \emph{subsumption} rules introduced in \cite{2017-DiCiccio}, into the \emph{deductive closure operator}.
 
 %\theoremstyle{definition}\label{def:closure}
 \begin{definition}{}
 Given a set $R$ of subsumption rules, a deductive closure operator is a function $cl_R: \mathcal{P}(D[A])\rightarrow\mathcal{P}(D[A])$ that associates any set $M \in D[A]$ with all the constraints that can be logically derived from $M$ by applying one or more deduction rules in $R$.
 \end{definition}
-For brevity in the rest of the paper, we will omit the set $R$ and we will simply write $cl(M)$. The complete set of employed rules is available in the source code~\cite{zenodo:experiments}.\footnote{The files \texttt{declare\_rules.txt} within the \texttt{data} directory.}\todo{usiamo lo stesso oggetto in Zenodo (nuova versione) o ne creiamo uno totalmente nuovo?}
+For brevity, in the rest of the paper, we will omit the set $R$ and we will simply write $cl(M)$ to indicate the deductive closure of $M$. The complete set of employed deduction rules is available in the source code~\cite{zenodo:experiments}.\footnote{The file \texttt{declare\_rules.txt} \btext{can be found in the  }%within the
+\texttt{data} directory.}%\todo{usiamo lo stesso oggetto in Zenodo (nuova versione) o ne creiamo uno totalmente nuovo?}
 
 
 
 
-Conceptually, the \nd approach can be seen as a two-step procedure: in the first step a set of candidate constraints are selected, and then solutions are selected among the (appropriate) subsets of the candidates via an optimisation algorithm.
+Conceptually, the \nd approach can be seen as a two-step procedure: in the first step, a set of candidate constraints is built, and then solutions are selected among subsets of candidates via an optimization algorithm.
 %
-The set of candidate constraints is composed by those in $D[A]$ which accept all positive traces and reject at least a negative one. This is built by identifying the \emph{compatibles} set, i.e., the set of constraints that accepts all traces in $L^+$: 
+The set of candidate constraints is composed \btext{of} %by
+those in $D[A]$ that accept all positive examples and reject at least a negative one. To build this set, \nd constructs a \emph{compatibles} set, i.e., the set of constraints that accept all traces in $L^+$: 
 \begin{equation}
 {compatibles(D[A], L^+)} = \{c\in D[A]~|~\forall t\in L^+,~ t\models c \} \\
 \end{equation}
 %
-Then, it defines the \textit{\sheriff} function to associate to any trace $t$ in $L^-$ the constraints of \textit{compatibles} that rejects $t$:
+Then, it defines the \textit{\sheriff} function to associate to any trace $t$ in $L^-$ the constraints of \textit{compatibles} that \btext{reject} %rejects 
+$t$:
 \begin{equation}
 {\textit{\sheriff}}(t) = \{c\in {compatibles}~|~t\not\models c\} \\
 \end{equation}
 %
-The \textit{\sheriff} function is used to construct the set of all candidate constraints from which a model can be selected; that is, the set $\mathcal{C}$ of all the constraints in $D[A]$ accepting all positive traces and rejecting at least one negative trace, i.e., $\mathcal{C} = \bigcup_{t\in L^-} \textit{\sheriff}(t)$. The solutions are selected from the set 
+The \textit{\sheriff} function is used to construct the set of all candidate constraints from which a discovered model is derived, i.e., the set $\mathcal{C} = \bigcup_{t\in L^-} \textit{\sheriff}(t)$ of all the constraints in $D[A]$ accepting all positive traces and rejecting at least one negative trace. The solution space is therefore:
 \begin{equation}
   \mathcal{Z}=\{M\in\mathcal{P}(\mathcal{C})\mid \forall t\in L^-~t\not\models M\cup P \text{ or } {\textit{\sheriff}}(t) = \emptyset \}
 \end{equation}
-according to a certain domain-independent criterion. Due to the fact that not all the pairs of negative and positive set of traces can be perfectly separated by Declare~\cite{DBLP:conf/bpm/SlaatsDB21}, there can be traces in $L^-$ for which the ${\textit{\sheriff}}$ is empty; we know that those cannot be excluded by any model that guarantees the acceptance of all the positive ones.
+%according to a certain domain-independent criterion. 
+Due to the fact that not all the pairs of negative and positive sets of traces can be perfectly separated using \declare~\cite{DBLP:conf/bpm/SlaatsDB21}, there can be traces in $L^-$ for which the ${\textit{\sheriff}}$ is empty, meaning that those traces cannot be excluded by any model that guarantees the acceptance of all the positive ones.
 
-The second step uses an optimisation strategy to identify the solutions; in~\cite{deviant-tkde}, two different criteria were taken into account: \emph{generality} (or conversely, \emph{specificity}), and \emph{simplicity}.
-If the user is interested in the most general model, then \nd employs the closure operator $cl$ to select the models $S \in \mathcal{Z}$ with the less restricting consequences; that is, using the order $S\preceq S'$ defined by the subset of the closures $cl(S\cup P)\subseteq cl(S'\cup P)$.
-If the user wants the simplest model, \nd look for the solutions with minimal size of the closure, and, in case of ties, the size of the candidate; i.e., according to the lexicographic order of the pairs $(|cl(S\cup P)|, |S|)$.
+The second step of \nd uses an optimization strategy to identify the solutions; in~\cite{deviant-tkde}, two different criteria were taken into account: \emph{generality} (or conversely, \emph{specificity}), and \emph{simplicity}.
+If the user is interested in the most general model, then \nd employs the closure operator $cl$ to select the models $S \in \mathcal{Z}$ with the less restrictive behavior.
+If the user wants the simplest model, \nd looks for the solutions with minimal closure size. In case of ties, the solution with the minimal size is preferred.
 
 
 
