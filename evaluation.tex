@@ -14,16 +14,16 @@
 
 % \btext{@all? (in particolare chiara DF, FAbrizio, Marco e sergio per pensarla). Pensare alla valutazione. Ho recuperato i due dataset dei danesi (vedi git). Se volete si possono usare questi, pero' uno dei due log in realta' e' un insieme di 215 logs di cui loro hanno fatto la media. Forse io ne sceglierei due o tre (es Dreyers Foundation.xes + uno o due dei 215) e farei la valutazione su questi. Anche perche' piu' che valutazione e' far vedere cosa esce perche' nn mi e' chiaro come valutiamo n termini di metriche l'output.}
 
-In Section \ref{sec:example}, we introduced the preference types through simple toy-like examples. The interested reader, however, might wonder about the usability and efficacy of our approach when applied to real-life cases. We explored the applicability of our approach \btext{using} %to
-two real-life event logs, namely DREYERS (492 positive traces and 208 negative ones) and CERV (55 positive traces and 102 negatives traces).\footnote{\btext{For reproducibility purposes the source code is available in~\cite{zenodo:experiments}, the DREYERS event log can be found in~\cite{DBLP:conf/ssci/DeboisS15,DBLP:conf/bpm/SlaatsDB21}, while the CERV event log is a proprietary dataset.}} In both cases, we were able to find ten models satisfying the given preferences in a computation time between 1 and 3 seconds, using a normally-equipped laptop.
+In Section \ref{sec:example}, we introduced the preference types through simple toy-like examples. The interested reader, however, might wonder about the usability and efficacy of our approach when applied to real-life cases. We explored the applicability of our approach using %to
+two real-life event logs, namely DREYERS (492 positive traces and 208 negative ones) and CERV (55 positive traces and 102 negatives traces).\footnote{For reproducibility purposes the source code is available in~\cite{zenodo:experiments}, the DREYERS event log can be found in~\cite{DBLP:conf/ssci/DeboisS15,DBLP:conf/bpm/SlaatsDB21}, while the CERV event log is a proprietary dataset.} In both cases, we were able to find ten models satisfying the given preferences in a computation time between 1 and 3 seconds, using a normally-equipped laptop.
 
 
 
 \subsection{The DREYERS log}
 \label{subsec:dreyers}
 
-The DREYERS log describes the Dreyer Foundation’s processes pertaining to their support to legal and architectural projects, and it has been used in \cite{DBLP:conf/ssci/DeboisS15,DBLP:conf/bpm/SlaatsDB21}. Each application to request the Foundation's support goes through a pre-screen that can lead to an initial rejection. The remaining applications undergo a review, in which at least one of the reviewers must be a lawyer or an architect, depending on the application type. The review phase is followed by a board meeting, where applications to be supported are selected \btext{and eventually funded.} %\btext{The selected applications are then funded.}%: in case, the application is funded.
-Two sets of log traces are available \btext{in the dataset}: a positive one collecting executions that did not fail and a negative one representing executions that were reset due to a system failure. %process instances that execute properly have been labeled as the positive example set, while process instances that do not adhere to the proper execution path belong to the negative example set. %The labeling was already available, and we are not aware of the adopted criteria.
+The DREYERS log describes the Dreyer Foundation’s processes pertaining to their support to legal and architectural projects, and it has been used in \cite{DBLP:conf/ssci/DeboisS15,DBLP:conf/bpm/SlaatsDB21}. Each application to request the Foundation's support goes through a pre-screen that can lead to an initial rejection. The remaining applications undergo a review, in which at least one of the reviewers must be a lawyer or an architect, depending on the application type. The review phase is followed by a board meeting, where applications to be supported are selected and eventually funded. %\btext{The selected applications are then funded.}%: in case, the application is funded.
+Two sets of log traces are available in the dataset: a positive one collecting executions that did not fail and a negative one representing executions that were reset due to a system failure. %process instances that execute properly have been labeled as the positive example set, while process instances that do not adhere to the proper execution path belong to the negative example set. %The labeling was already available, and we are not aware of the adopted criteria.
 %Two sets of log traces are available: process instances that do not go through the pre-screen belong to the negative example set, whereas the ones that execute till the end of the procedure have been labeled as positive.
 
 Using this dataset, we played a sort of ``investigation game'', and explored the hypothesis that the type of application (architect- or lawyer- type) might affect the process outcome. More generally, one might be interested in knowing if there are any differences in models that explicitly mention one of the two possible types of application.
@@ -31,7 +31,7 @@ Using this dataset, we played a sort of ``investigation game'', and explored the
 %%%To distinguish (traces referring to) the two types of applications, we resorted to focus on two activities peculiar of each application type, namely the “Lawyer Review” and the “Architect Review” activity.
 To this end, we first specified a preference for models containing activity \textsf{Lawyer Review}, and then a preference for models containing activity \textsf{Architect Review}.
 
-In both cases, \btext{more than one model} %several models
+In both cases, more than one model %several models
 satisfying the preferences were found. However, the two sets of models are identical (except for the architect/lawyer activity), showing that the process is independent of the application domain.
 We report an example of a model obtained when specifying the preference for models containing activity \textsf{Architect Review}:
 %
@@ -94,7 +94,7 @@ Total & 208 & 30\\
 Notably, as shown in Table 1, this model is able to discriminate between positive and negative examples except for three negative traces (two variants), that cannot be ruled out without discarding also some positive examples.
 
 We continued our investigation by focusing on %the very beginning of the process, and on the specific 
-activity \textsf{Initial Rejection}. \btext{We report here one of the returned models:} %Many models were found, among them the following one:
+activity \textsf{Initial Rejection}. We report here one of the returned models: %Many models were found, among them the following one:
 
 \begin{align*}
 %\mathsf{M_2} = \{ \ &  \mathsf{ absence2(Initial\ rejection)} \\
@@ -110,6 +110,8 @@ M_2 = \{ \ &  \mathsf{ absence2(Initial\ rejection)} \\
 
 Model $M_2$ %$\mathsf{M_2}$
 highlights the fact that some negative traces can be distinguishable from the positive ones because of the repetition of \textsf{Initial Rejection}: some traces, indeed, reported the execution of the activity twice, thus indicating an attention point for the process analyst.
+
+\chiara{Finally, we did compare the effect of discovering models with or without the two preferred activities. For this we asked \nd to extract 10 optimal\todo{Lasciamo optimal?} models with no preferences, 10 with the  \textsf{Architect Review} preference and 10 with the \textsf{Initial Rejection} preference, and we pairwise compared the models with no preference and the ones with a preferred activity. When imposing no preferences, activity \textsf{Architect Review} shows up in only 4 of the 10 discovered models. Imposing the usage of \textsf{Initial Rejection} is instead ``unnecessary'' (a posteriori), as this activity is also present in all 10 models discovered without specifying any preference.}
 
 %%%Model M2:\\
 %%%
@@ -140,6 +142,7 @@ highlights the fact that some negative traces can be distinguishable from the po
 %%%\btext{DA FINIRE DOPO AVER PARLATO CON GIULIA}
 
 
+
 \subsection{Evaluation on the CERV log}
 \label{subsec:cerv}
 
@@ -162,12 +165,14 @@ M_2 = \{ \ &  \mathsf{ alternateresponse(send\ positive\ pap\ test\ result, take
 & \mathsf{succession(send\ colposcopy\ uncertain\ result, send\ biopsy\ sample)} \ \}  
 \end{align*}
 
-In model $M_1$, the \textsf{precedence} constraint implies that if a biopsy is executed, then the colposcopy examination has provided an uncertain result before. The second model is identical to the first one, except for the constraint \btext{related} %subjected
-to our preference. Interestingly, the \textsf{succession} \btext{relates} %is about
-the same activities involved \btext{in} %by
-the \textsf{precedence} constraint in the first model. The difference between the two models lies in the logical relation between \textsf{precedence} and \textsf{succession}: a trace that violates the former will always violate the latter (but not \btext{vice versa}% the opposite
+In model $M_1$, the \textsf{precedence} constraint implies that if a biopsy is executed, then the colposcopy examination has provided an uncertain result before. The second model is identical to the first one, except for the constraint related %subjected
+to our preference. Interestingly, the \textsf{succession} relates %is about
+the same activities involved in %by
+the \textsf{precedence} constraint in the first model. The difference between the two models lies in the logical relation between \textsf{precedence} and \textsf{succession}: a trace that violates the former will always violate the latter (but not vice versa% the opposite
 ). It is then up to the domain expert to prefer a stricter or a more general behavior.
 %, knowing that in this case such a choice would not affect the resulting model.
+
+\chiara{Finally, we did compare the effect of discovering models with or without the two preferred templates, by extracting 10 optimal\todo{Lasciamo optimal?} models with no template preferences, and 10 each with the \textsf{Precedence} and \textsf{Succession} preference respectively. Interestingly enough, imposing the \textsf{Precedence} preference results in being extremely useful in this scenario. In fact, none of the 10 models discovered with no preferred template did contain a \textsf{Precedence} pattern. Similarly with \textsf{Succession}, which appears in only 1 of the 10 models discovered without specifying any preference.}
 
 %%%For the models of the previous example we report the number of traces and paths violated by each constraint:
 %%%

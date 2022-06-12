@@ -18,13 +18,13 @@ To tackle this issue, in this work, we exploit the \asprin tool \cite{DBLP:conf/
 %By exploiting this flexibility we can capture the different types of preferences identified in Section~\ref{sec:example}.
 %
 \asprin provides a general framework for optimizing qualitative and quantitative preferences in \ac{ASP}. %It allows for computing optimal answer sets of logic programs with preferences. 
-While \asprin comes with a library of predefined preference types (subset, pareto, lexicographic, etc.), it is readily extensible by new customized preference types. Preferences can be defined and aggregated by means of higher level types, making \asprin the perfect tool to support the domain-dependent preferences that we introduced in Section \ref{sec:example}. \btext{Moreover,} %Besides,
+While \asprin comes with a library of predefined preference types (subset, pareto, lexicographic, etc.), it is readily extensible by new customized preference types. Preferences can be defined and aggregated by means of higher level types, making \asprin the perfect tool to support the domain-dependent preferences that we introduced in Section \ref{sec:example}. Moreover, %Besides,
 \asprin provides a simple way to implement the ``generality'' and ``simplicity'' criteria discussed in Section \ref{sec:deviant}.
 
 
 %for example we could exploit \asprin to achieve the ``generality'' criteria discussed in the previous section. Thus, an advantage of choosing \asprin is that by means of a single framework we support both the notion of user preference and the generality and simplicity concepts introduced in the previous work.  % is implemented in this in \asprin defining two \emph{subset} preferences for the derived and selected Declare constraints respectively, and combining them via a \emph{lexicographic} ordering among them. This selects Declare models with a smaller deductive closure, and a smaller number of selected constraints to resolve ties.
 
-Describing \btext{the} \asprin language and the precise encoding of the optimization problem is outside the scope of this paper (the full code is available in~\cite{zenodo:experiments}). However, in abstract wording, we use two different predicates,
+Describing the \asprin language and the precise encoding of the optimization problem is outside the scope of this paper (the full code is available in~\cite{zenodo:experiments}). However, in abstract wording, we use two different predicates,
 which are explicitly represented by means of their template and activities as predicate arguments.
 %
-This enables the characterization of the \ac{ASP} models, e.g., by prioritizing those in which specific template\btext{s} and/or activities are selected or excluded. These preferences can be combined with domain-independent preferences, e.g., on the size of the discovered models to provide a fine\btext{-}grained ordering among them.
+This enables the characterization of the \ac{ASP} models, e.g., by prioritizing those in which specific templates and/or activities are selected or excluded. These preferences can be combined with domain-independent preferences, e.g., on the size of the discovered models to provide a fine-grained ordering among them.

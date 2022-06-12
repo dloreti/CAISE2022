@@ -9,12 +9,12 @@
 %Vorremo riprendere la parte tecnica del lavoro under revision, senza chiamarlo ``background'' perché non è mica ancora pubblicato e assodato...
 
 
-Our approach is based on \btext{the} \nd binary miner~\cite{deviant-tkde}, which, given two input sets of positive and negative examples, aims at extracting a model accepting all positive traces and rejecting all \btext{negative ones.} %negatives. 
+Our approach is based on the \nd binary miner~\cite{deviant-tkde}, which, given two input sets of positive and negative examples, aims at extracting a model accepting all positive traces and rejecting all negative ones. %negatives. 
 %This operation includes an abstraction step, so that the resulting model would allow to classify also unknown traces, not reported in the input log. Depending on the choices made during the discovery process, the learned model can``shape'' the set of unknown traces in different ways.
 In this work, we enrich \nd with the possibility to express domain-dependent preferences on the discovered models. Therefore, we need to report here some definitions and explanations from~\cite{deviant-tkde} that are useful to understand %also
 our approach.
 
-\nd start\btext{s} from a certain \emph{language bias}: given a set of \declare templates $D$ and a set of activities $A$, we indicate with $D[A]$ the set of all possible grounding\btext{s} of templates in $D$ w.r.t. $A$, i.e., all the constraints that can be built using activities in $A$.
+\nd starts from a certain \emph{language bias}: given a set of \declare templates $D$ and a set of activities $A$, we indicate with $D[A]$ the set of all possible groundings of templates in $D$ w.r.t. $A$, i.e., all the constraints that can be built using activities in $A$.
 
 We respectively denote with $L^+$ and $L^-$ the sets of positive and negative examples %, reported 
 in the input event log. \nd starts by considering a --- possibly empty --- initial model $P$, that is a set of \declare constraints known to characterize the examples in $L^+$. The goal of \nd is to refine $P$ taking into account both the positive and the negative examples.
@@ -39,7 +39,7 @@ A model $M\subseteq D[A]$ is more general than $M'\subseteq D[A]$ (written as $M
 \begin{definition}{}
 Given a set $R$ of subsumption rules, a deductive closure operator is a function $cl_R: \mathcal{P}(D[A])\rightarrow\mathcal{P}(D[A])$ that associates any set $M \in D[A]$ with all the constraints that can be logically derived from $M$ by applying one or more deduction rules in $R$.
 \end{definition}
-For brevity, in the rest of the paper, we will omit the set $R$ and we will simply write $cl(M)$ to indicate the deductive closure of $M$. The complete set of employed deduction rules is available in the source code~\cite{zenodo:experiments}.\footnote{The file \texttt{declare\_rules.txt} \btext{can be found in the  }%within the
+For brevity, in the rest of the paper, we will omit the set $R$ and we will simply write $cl(M)$ to indicate the deductive closure of $M$. The complete set of employed deduction rules is available in the source code~\cite{zenodo:experiments}.\footnote{The file \texttt{declare\_rules.txt} can be found in the%within the
 \texttt{data} directory.}%\todo{usiamo lo stesso oggetto in Zenodo (nuova versione) o ne creiamo uno totalmente nuovo?}
 
 
@@ -47,13 +47,13 @@ For brevity, in the rest of the paper, we will omit the set $R$ and we will simp
 
 Conceptually, the \nd approach can be seen as a two-step procedure: in the first step, a set of candidate constraints is built, and then solutions are selected among subsets of candidates via an optimization algorithm.
 %
-The set of candidate constraints is composed \btext{of} %by
+The set of candidate constraints is composed of %by
 those in $D[A]$ that accept all positive examples and reject at least a negative one. To build this set, \nd constructs a \emph{compatibles} set, i.e., the set of constraints that accept all traces in $L^+$: 
 \begin{equation}
 {compatibles(D[A], L^+)} = \{c\in D[A]~|~\forall t\in L^+,~ t\models c \} \\
 \end{equation}
 %
-Then, it defines the \textit{\sheriff} function to associate to any trace $t$ in $L^-$ the constraints of \textit{compatibles} that \btext{reject} %rejects 
+Then, it defines the \textit{\sheriff} function to associate to any trace $t$ in $L^-$ the constraints of \textit{compatibles} that reject %rejects 
 $t$:
 \begin{equation}
 {\textit{\sheriff}}(t) = \{c\in {compatibles}~|~t\not\models c\} \\
