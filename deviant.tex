@@ -57,6 +57,7 @@ Then, it defines the \textit{\sheriff} function to associate to any trace $t$ in
 $t$:
 \begin{equation}
 {\textit{\sheriff}}(t) = \{c\in {compatibles}~|~t\not\models c\} \\
+\label{eq:sheriffs}
 \end{equation}
 %
 The \textit{\sheriff} function is used to construct the set of all candidate constraints from which a discovered model is derived, i.e., the set $\mathcal{C} = \bigcup_{t\in L^-} \textit{\sheriff}(t)$ of all the constraints in $D[A]$ accepting all positive traces and rejecting at least one negative trace. The solution space is therefore:

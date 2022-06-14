@@ -3,8 +3,37 @@
 \section{Adding preferences to process discovery: an implementation through \asprin}
 \label{sec:tool}
 
+
+\subsection{Specifying the preferences}
+\label{subsec:prefLanguage}
+
+\federico{
+As discussed in Section \ref{sec:example}, in this work we support three different types of preferences. Preferences over domain activities are simply expressed through ASP Prolog facts of the type:
+\begin{center}
+\texttt{good\_action(X).}
+\end{center}
+where \texttt{X} is a placeholder for an activity name. The intended meaning is that models containing \declare constraints about the the action \texttt{X} should be preferred to models that do not contain it.
+
+Analogously, to specify a preference for a \declare template, we simply add a sentence of the type:
+\begin{center}
+\texttt{good\_constraint(X).}
+\end{center}
+where \texttt{X} now is a placeholder for a template name. Again, the intended meaning is about preferring models containing the specified templates, to other models.
+
+Finally, to express a preference that is a combiantion of the previous types, we allow the user to write facts like:
+\begin{center}
+\texttt{good\_constraint\_action(decl(Template, Action1 [, Action2])).}
+\end{center}
+where \texttt{Template} is a placeholder for the \declare template name, \texttt{Action1} is the placeholder for the activity name and, in case the preferred template is a binary one, \texttt{Action2} is the placeholder for the second activity.
+%
+It is worthy to mention that it is possible to express several preferences at the same time: the intended meaning is that models satisfying more preferences are preferable to models that satisfy less preferences.
+}
+
+
+\subsection{Exploiting \asprin for searching preferred models}
+\label{subsec:exploitAsprin}
 %At first glance it looks like the ${\textit{\sheriff}}$ function includes all what we need to generate ``preferred'' models; that is, by selecting exactly one constraint from each ${\textit{\sheriff}}(t)\neq\emptyset$ for $t\in L^-$ according to some patterns that depend on the preferences. However, that's clearly not the case because constraints are not independent: e.g., some constraints are more general than others (i.e.\ they satisfy a bigger set of traces, see Def.~\ref{def:subs}), but there is also the case in which selecting two constraints implies the validity of a third one. For example, selecting $\mathsf{precedence(a,b)}$ and $\mathsf{response(a,b)}$ would be equivalent to select $\mathsf{succession(a,b)}$ as well.
-At a first glance, one could think that the ${\textit{\sheriff}}$ function includes all that we need to generate ``preferred'' models. Indeed, a naive idea would be to select exactly one constraint from each ${\textit{\sheriff}}(t)\neq\emptyset$ for $t\in L^-$ according to some preferences. However, this solution does not take into account the interplay among constraints. In particular, some constraints might be more general than others, or even there might be cases in which two constraints imply the validity of a third one. 
+At a first glance, one could think that the ${\textit{\sheriff}}$ function in Eq. \ref{eq:sheriffs} includes all that we need to generate ``preferred'' models. Indeed, a naive idea would be to select exactly one constraint from each ${\textit{\sheriff}}(t)\neq\emptyset$ for $t\in L^-$ according to some preferences. However, this solution does not take into account the interplay among constraints. In particular, some constraints might be more general than others, or even there might be cases in which two constraints imply the validity of a third one. 
 %For example, selecting $\mathsf{precedence(a,b)}$ and $\mathsf{response(a,b)}$ would be equivalent to select $\mathsf{succession(a,b)}$ as well. 
 This would clearly interfere with the validity of the specified preferences.  
 %erefore, the naive idea of using just the ${\textit{\sheriff}}$ function would not be enough to guarantee that the results are in line with the specified preferences. 
@@ -18,7 +47,7 @@ To tackle this issue, in this work, we exploit the \asprin tool \cite{DBLP:conf/
 %By exploiting this flexibility we can capture the different types of preferences identified in Section~\ref{sec:example}.
 %
 \asprin provides a general framework for optimizing qualitative and quantitative preferences in \ac{ASP}. %It allows for computing optimal answer sets of logic programs with preferences. 
-While \asprin comes with a library of predefined preference types (subset, pareto, lexicographic, etc.), it is readily extensible by new customized preference types. Preferences can be defined and aggregated by means of higher level types, making \asprin the perfect tool to support the domain-dependent preferences that we introduced in Section \ref{sec:example}. Moreover, %Besides,
+While \asprin comes with a library of predefined preference types (subset, pareto, lexicographic, etc.), it is readily extensible by new customized preference types. Preferences can be defined and aggregated by means of higher level types, making \asprin the perfect tool to support the preferences introduced in Section \ref{sec:example}. Moreover, %Besides,
 \asprin provides a simple way to implement the ``generality'' and ``simplicity'' criteria discussed in Section \ref{sec:deviant}.
 
 

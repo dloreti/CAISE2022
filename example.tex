@@ -42,7 +42,7 @@ A first type of preferences on the discovered models is strictly related to the 
 
 \begin{example}
 \label{ex:prefOverActivities}
-Let us consider the quite common ``loan scenario'', where a bank receives a request for a loan, evaluates it, and provides an answer. Let us assume that process instances have been classified into two sets, for example including successful and unsuccessful applications. The bank employee will look then for a model that helps her to understand the differences between the two sets. Of course, the employee will not directly look into the logs, which, for simplicity, we can suppose to be as follows:
+Let us consider a ``loan scenario'', where a bank receives a request for a loan, evaluates it, and provides an answer. Let us assume that process instances have been classified into two sets, for example including successful and unsuccessful applications. The bank employee will look then for a model that helps her to understand the differences. Of course, the employee will not directly look into the logs, which, for simplicity, we can suppose to be as follows:
 % Let us consider the following, fictitious example, where both the positive and the negative sets contain only one trace each:
 %
 \begin{align*}
@@ -71,7 +71,7 @@ M_2 & = \{ \mathsf{existence(notifyOutcome)}\}
 %
 \end{example}
 
-Generally speaking, being able to specify a preference for models that refer to specific activities allows chiara{expert} users to answer the question \emph{``Is it possible to discriminate between two sets of traces by looking at certain activities?''}. The discovery process becomes, in this way, domain-driven: many models describe the process, but only those ones that focus on certain domain aspects should be returned. %searched.
+Generally speaking, being able to specify a preference for models that refer to specific activities allows \chiara{expert} users to answer the question \emph{``Is it possible to discriminate between two sets of traces by looking at certain activities?''}. The discovery process becomes, in this way, domain-driven: many models describe the process, but those ones that focus on certain domain aspects should be returned before others. %searched.
 
 
 

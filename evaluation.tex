@@ -22,15 +22,17 @@ two real-life event logs, namely DREYERS (492 positive traces and 208 negative o
 \subsection{The DREYERS log}
 \label{subsec:dreyers}
 
-The DREYERS log describes the Dreyer Foundation’s processes pertaining to their support to legal and architectural projects, and it has been used in \cite{DBLP:conf/ssci/DeboisS15,DBLP:conf/bpm/SlaatsDB21}. Each application to request the Foundation's support goes through a pre-screen that can lead to an initial rejection. The remaining applications undergo a review, in which at least one of the reviewers must be a lawyer or an architect, depending on the application type. The review phase is followed by a board meeting, where applications to be supported are selected and eventually funded. %\btext{The selected applications are then funded.}%: in case, the application is funded.
+The DREYERS log describes the Dreyer Foundation’s processes pertaining to their support to legal and architectural projects, and it has been used in \cite{DBLP:conf/ssci/DeboisS15,DBLP:conf/bpm/SlaatsDB21}. Each application to request the Foundation's support goes through a pre-screen that can lead to an initial rejection. The remaining applications undergo a review, in which at least one of the reviewers must be a lawyer or an architect, depending on the application type. The review phase is followed by a board meeting, where applications to be supported are selected and eventually funded.
 Two sets of log traces are available in the dataset: a positive one collecting executions that did not fail and a negative one representing executions that were reset due to a system failure. %process instances that execute properly have been labeled as the positive example set, while process instances that do not adhere to the proper execution path belong to the negative example set. %The labeling was already available, and we are not aware of the adopted criteria.
 %Two sets of log traces are available: process instances that do not go through the pre-screen belong to the negative example set, whereas the ones that execute till the end of the procedure have been labeled as positive.
 
-Using this dataset, we played a sort of ``investigation game'', and explored the hypothesis that the type of application (architect- or lawyer- type) might affect the process outcome. More generally, one might be interested in knowing if there are any differences in models that explicitly mention one of the two possible types of application.
-%, so as to understand the possible variations in the process, depending on the legal or architectural context
-%%%To distinguish (traces referring to) the two types of applications, we resorted to focus on two activities peculiar of each application type, namely the “Lawyer Review” and the “Architect Review” activity.
-To this end, we first specified a preference for models containing activity \textsf{Lawyer Review}, and then a preference for models containing activity \textsf{Architect Review}.
-
+Using this dataset, we played a sort of ``investigation game'', and explored the hypothesis that the type of application (architect- or lawyer- type) might affect the process outcome.
+%More generally, one might be interested in knowing if there are any differences in models that explicitly mention one of the two possible types of application.
+%To this end, we first specified a preference for models containing activity \textsf{Lawyer Review}, and then a preference for models containing activity \textsf{Architect Review}.
+\federico{
+To this end, we initially specified a preference \texttt{good\_action(Lawyer Review)}, and later on a preference \texttt{good\_action(Architect Review)}.
+}
+%
 In both cases, more than one model %several models
 satisfying the preferences were found. However, the two sets of models are identical (except for the architect/lawyer activity), showing that the process is independent of the application domain.
 We report an example of a model obtained when specifying the preference for models containing activity \textsf{Architect Review}:
@@ -150,7 +152,15 @@ CERV is an event log that describes a process pertaining to the cervical cancer 
 %
 Hence, the traces have been labeled by a domain expert as belonging either to the positive or the negative set, depending on their compliance with the adopted protocol.
 
-We investigated the log by eliciting a preference over the \textsf{precedence} and \textsf{succession} templates. The first two returned models are:
+We investigated the log by eliciting two preferences over the \textsf{precedence} and \textsf{succession} templates:
+\federico{
+\begin{center}
+\texttt{good\_constraint(precedence).}\\
+\texttt{good\_constraint(succession).}
+\end{center}
+}
+%.
+The first two returned models are:
 
 \begin{align*}
 %\mathsf{M_1} = \{ \ &  \mathsf{ alternateresponse(send\ positive\ pap\ test\ result, take\ a\ colposcopy\ examination)} \\
