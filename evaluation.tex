@@ -38,7 +38,8 @@ satisfying the preferences were found. However, the two sets of models are ident
 We report an example of a model obtained when specifying the preference for models containing activity \textsf{Architect Review}:
 %
 %l'ordine di restituzione è molto diverso e i primi restituiti sono quelli con l'azione in danese, quindi ne ho scelti due volutamente diversi... è meglio metterli uguali con solo l'azione architect/lawyer diversa?
-%
+
+{\small{
 \begin{align*}
 %\mathsf{M_1} = \{ \ & \mathsf{ alternateresponse(Undo\ payment, First\ payout)} \\
 M_1 = \{ \ & \mathsf{ alternateresponse(Undo\ payment, First\ payout)} \\
@@ -50,6 +51,7 @@ M_1 = \{ \ & \mathsf{ alternateresponse(Undo\ payment, First\ payout)} \\
 & \mathsf{ notchainsuccession(Set\ to\ Pre\ approved, Round\ Ends)} \\
 & \mathsf{ notsuccession(Architect\ Review, Approval\ on\ to\ the\ board)} \ \} 
 \end{align*}
+}}
 
 %%%The DREYERS log consists of 492 positive traces and 208 negative ones, 130 positive paths and 29 negative ones. NegDis is able to return models that satisfy the whole positive log and violate all but three negative traces (two paths). 
 %%%For the models of the previous example we report the number of traces and paths violated by each constraint:
@@ -98,7 +100,7 @@ Notably, as shown in Table 1, this model is able to discriminate between positiv
 We continued our investigation by focusing on %the very beginning of the process, and on the specific 
 activity \textsf{Initial Rejection}. We report here one of the returned models: %Many models were found, among them the following one:
 
-\begin{align*}
+{\small{\begin{align*}
 %\mathsf{M_2} = \{ \ &  \mathsf{ absence2(Initial\ rejection)} \\
 M_2 = \{ \ &  \mathsf{ absence2(Initial\ rejection)} \\
 & \mathsf{ choice(Round\ Ends, Applicant\ informed)} \\
@@ -109,7 +111,8 @@ M_2 = \{ \ &  \mathsf{ absence2(Initial\ rejection)} \\
 & \mathsf{ notsuccession(Lawyer\ Review, Change\ phase\ to\ review)} \\
 & \mathsf{ response(Undo\ payment, First\ payout) } \ \} 
 \end{align*}
-
+}
+}
 Model $M_2$ %$\mathsf{M_2}$
 highlights the fact that some negative traces can be distinguishable from the positive ones because of the repetition of \textsf{Initial Rejection}: some traces, indeed, reported the execution of the activity twice, thus indicating an attention point for the process analyst.
 

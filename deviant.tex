@@ -11,13 +11,13 @@
 
 Our approach is based on the \nd binary miner~\cite{deviant-tkde}, which, given two input sets of positive and negative examples, aims at extracting a model accepting all positive traces and rejecting all negative ones. %negatives. 
 %This operation includes an abstraction step, so that the resulting model would allow to classify also unknown traces, not reported in the input log. Depending on the choices made during the discovery process, the learned model can``shape'' the set of unknown traces in different ways.
-In this work, we enrich \nd with the possibility to express domain-dependent preferences on the discovered models. Therefore, we need to report here some definitions and explanations from~\cite{deviant-tkde} that are useful to understand %also
+In this work, we enrich \nd with the possibility to express domain-dependent preferences on the discovered models. Therefore, we  report some definitions and explanations from~\cite{deviant-tkde} that are useful to understand %also
 our approach.
 
 \nd starts from a certain \emph{language bias}: given a set of \declare templates $D$ and a set of activities $A$, we indicate with $D[A]$ the set of all possible groundings of templates in $D$ w.r.t. $A$, i.e., all the constraints that can be built using activities in $A$.
 
 We respectively denote with $L^+$ and $L^-$ the sets of positive and negative examples %, reported 
-in the input event log. \nd starts by considering a --- possibly empty --- initial model $P$, that is a set of \declare constraints known to characterize the examples in $L^+$. The goal of \nd is to refine $P$ taking into account both the positive and the negative examples.
+in the input event log. \nd starts by considering a, possibly empty, initial model $P$, that is a set of \declare constraints known to characterize the examples in $L^+$. The goal of \nd is to refine $P$ taking into account both the positive and the negative examples.
 
 \begin{definition}{}\label{def:cand}
 Given the initial model $P$, a candidate solution for the discovery task is any set of constraints $S\subseteq D[A]$ s.t.
