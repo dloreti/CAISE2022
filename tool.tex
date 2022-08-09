@@ -53,7 +53,7 @@ While \asprin comes with a library of predefined preference types (subset, paret
 
 %for example we could exploit \asprin to achieve the ``generality'' criteria discussed in the previous section. Thus, an advantage of choosing \asprin is that by means of a single framework we support both the notion of user preference and the generality and simplicity concepts introduced in the previous work.  % is implemented in this in \asprin defining two \emph{subset} preferences for the derived and selected Declare constraints respectively, and combining them via a \emph{lexicographic} ordering among them. This selects Declare models with a smaller deductive closure, and a smaller number of selected constraints to resolve ties.
 
-Describing the \asprin language and the precise encoding of the optimization problem is outside the scope of this paper (the full code is available in~\cite{zenodo:experiments}). However, in abstract wording, we use two different predicates,
+Describing the \asprin language and the precise encoding of the optimization problem is outside the scope of this paper (the full code is available in~\cite{zenodo:experiments} while a detailed description of how we encoded the process discovery problem using the \asprin framework is available in~\cite{Chesani:2022wa}). However, in abstract wording, we use two different predicates,
 which are explicitly represented by means of their template and activities as predicate arguments.
 %
 This enables the characterization of the \ac{ASP} models, e.g., by prioritizing those in which specific templates and/or activities are selected or excluded. These preferences can be combined with domain-independent preferences, e.g., on the size of the discovered models to provide a fine-grained ordering among them.
